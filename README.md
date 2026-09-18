@@ -121,3 +121,35 @@ SQL command used: 'CREATE DATABASE food_delivery_db;'
 **Query:** `SELECT song_name, artist_name FROM songs WHERE artist_name LIKE '%ar%';`
 
 ![Task 4 Result](session4_task4.png)
+
+---
+
+# SQL Assignment – Session 5
+
+## DISTINCT, ORDER BY, and LIMIT
+
+[View the complete Session 5 SQL file](session5_distinct_order_limit.sql)
+
+### Task 1: Unique Payment Methods
+
+**Query:** `SELECT DISTINCT payment_method FROM orders;`
+
+![Task 1 Result](session5_task1.png)
+
+### Task 2: Unique Cities in Alphabetical Order
+
+**Query:** `SELECT DISTINCT city FROM users ORDER BY city ASC;`
+
+![Task 2 Result](session5_task2.png)
+
+### Task 3: Five Most Recent Movie Bookings
+
+**Query:** `SELECT * FROM bookings ORDER BY booking_date DESC LIMIT 5;`
+
+![Task 3 Result](session5_task3.png)
+
+### Task 4: Ten Products With the Highest Sales
+
+**Query:** `SELECT product_name, sold_count FROM products ORDER BY sold_count DESC LIMIT 10;`
+
+![Task 4 Result](session5_task4.png)
