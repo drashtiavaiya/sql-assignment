@@ -50,10 +50,43 @@ SQL command used: 'CREATE DATABASE food_delivery_db;'
 
 ![Task 3 Result](session2_task3.png.png)
 
-### Task 4: SQL Comment and Select All Columns
+### Task 4: SQL Comment and Select All Columns---
+
+# SQL Assignment – Session 3
+
+## WHERE Clause and Logical Operators
+
+[View the complete Session 3 SQL file](session3_where_operators.sql)
+
+### Task 1: Restaurants With Rating 4.5 or Higher
+
+**Query:** `SELECT * FROM restaurants WHERE rating >= 4.5;`
+
+![Task 1 Result](session3_task1.png)
+
+### Task 2: Action Movies Released After 2020
+
+**Query:** `SELECT movie_name, release_year, genre FROM movies WHERE release_year > 2020 AND genre = 'Action';`
+
+![Task 2 Result](session3_task2.png)
+
+### Task 3: Products Using OR Operator
+
+**Query:** `SELECT * FROM products WHERE category <> 'Electronics' OR price < 500;`
+
+![Task 3 Result](session3_task3.png)
+
+### Task 4: Users Using NOT and AND Operators
+
+**Query:** `SELECT * FROM users WHERE NOT city = 'Ahmedabad' AND followers > 1000;`
+
+![Task 4 Result](session3_task4.png)
+
 
 **Comment:** `-- This query selects all columns from the products table`
 
 **Query:** `SELECT * FROM products;`
 
 ![Task 4 Result](session2_task4.png.png)
+
+
