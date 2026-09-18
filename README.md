@@ -191,3 +191,41 @@ SQL command used: 'CREATE DATABASE food_delivery_db;'
 **Query:** `SELECT user_id, COUNT(order_id) AS total_orders, ROUND(AVG(total_price), 2) AS average_order_value, MAX(total_price) AS highest_order_value FROM myntra_orders GROUP BY user_id;`
 
 ![Task 5 Result](session6_task5.png)
+
+---
+
+# SQL Assignment – Session 8
+
+## INNER JOIN, LEFT JOIN, and RIGHT JOIN
+
+[View the complete Session 8 SQL file](session8.sql)
+
+### Task 1: Create Users and Orders Tables
+
+Created the `Users` and `Orders` tables with four users and six orders. Meera has no orders, and order 106 has no matching user.
+
+![Task 1 Result](session8_task1.png)
+
+### Task 2: Users and Products Using INNER JOIN
+
+**Query:** `SELECT u.username, o.product FROM Users AS u INNER JOIN Orders AS o ON u.user_id = o.user_id;`
+
+![Task 2 Result](session8_task2.png)
+
+### Task 3: All Users Using LEFT JOIN
+
+**Query:** `SELECT u.username, o.product FROM Users AS u LEFT JOIN Orders AS o ON u.user_id = o.user_id;`
+
+![Task 3 Result](session8_task3.png)
+
+### Task 4: All Orders Using RIGHT JOIN
+
+**Query:** `SELECT o.order_id, o.product, u.username FROM Users AS u RIGHT JOIN Orders AS o ON u.user_id = o.user_id;`
+
+![Task 4 Result](session8_task4.png)
+
+### Task 5: User Segments and Total Order Amount
+
+Used `Users`, `CustomerSegments`, and `Orders` to display each username, segment name, and total order amount.
+
+![Task 5 Result](session8_task5.png)
