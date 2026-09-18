@@ -90,3 +90,34 @@ SQL command used: 'CREATE DATABASE food_delivery_db;'
 ![Task 4 Result](session2_task4.png.png)
 
 
+---
+
+# SQL Assignment – Session 4
+
+## Wildcards and Pattern Matching
+
+[View the complete Session 4 SQL file](session4_pattern_matching.sql)
+
+### Task 1: Restaurant Names Ending With Cafe
+
+**Query:** `SELECT * FROM restaurants WHERE restaurant_name LIKE '%Cafe';`
+
+![Task 1 Result](session4_task1.png)
+
+### Task 2: Products Priced Between 500 and 1500
+
+**Query:** `SELECT * FROM products WHERE price BETWEEN 500 AND 1500;`
+
+![Task 2 Result](session4_task2.png)
+
+### Task 3: Users From Selected Cities
+
+**Query:** `SELECT * FROM users WHERE city IN ('Ahmedabad', 'Surat', 'Vadodara');`
+
+![Task 3 Result](session4_task3.png)
+
+### Task 4: Artist Names Containing “ar”
+
+**Query:** `SELECT song_name, artist_name FROM songs WHERE artist_name LIKE '%ar%';`
+
+![Task 4 Result](session4_task4.png)
