@@ -267,3 +267,38 @@ Used a self join to display employees with their managers and then filtered empl
 **Query logic:** `u1.user_id < u2.user_id` removes self-comparisons and prevents duplicate reversed pairs.
 
 ![Task 5 Result](session9_task5.png)
+
+---
+
+# SQL Assignment – Session 10
+
+## UNION and UNION ALL
+
+[View the complete Session 10 SQL file](session10.sql)
+
+### Task 1: Create AppOrders and InStoreOrders
+
+Created two order tables with four sample records in each table.
+
+![Task 1 Result](session10_task1.png)
+
+### Task 2: Unique Customers Using UNION
+
+**Query:** `SELECT customer_name FROM AppOrders UNION SELECT customer_name FROM InStoreOrders;`
+
+`UNION` returned six unique customer names because duplicate names were removed.
+
+![Task 2 Result](session10_task2.png)
+
+### Task 3: Every Order Using UNION ALL
+
+Used `UNION ALL` to combine every online and in-store order without removing any rows.
+
+![Task 3 Result](session10_task3.png)
+
+### Task 4: Difference Between UNION and UNION ALL
+
+- `UNION` removes duplicate rows and returned 6 customer names.
+- `UNION ALL` keeps duplicate rows and returned 8 customer names.
+
+![Task 4 Result](session10_task4.png)
