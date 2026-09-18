@@ -229,3 +229,41 @@ Created the `Users` and `Orders` tables with four users and six orders. Meera ha
 Used `Users`, `CustomerSegments`, and `Orders` to display each username, segment name, and total order amount.
 
 ![Task 5 Result](session8_task5.png)
+
+---
+
+# SQL Assignment – Session 9
+
+## Advanced Joins: FULL OUTER, SELF, and CROSS JOIN
+
+[View the complete Session 9 SQL file](session9.sql)
+
+### Task 1: Simulated FULL OUTER JOIN
+
+MySQL does not directly support `FULL OUTER JOIN`, so I combined a `LEFT JOIN` and `RIGHT JOIN` using `UNION ALL`.
+
+![Task 1 Result](session9_task1.png)
+
+### Task 2: Playlist Parent Relationship Using SELF JOIN
+
+Used a self join to display every playlist alongside its parent playlist.
+
+![Task 2 Result](session9_task2.png)
+
+### Task 3: User and Offer Combinations Using CROSS JOIN
+
+Generated every possible combination of users and offers for a personalized promotional campaign.
+
+![Task 3 Result](session9_task3.png)
+
+### Task 4: Employee and Manager Relationship
+
+Used a self join to display employees with their managers and then filtered employees who do not have a manager.
+
+![Task 4 Result](session9_task4.png)
+
+### Task 5: Pairs of Users Living in the Same City
+
+**Query logic:** `u1.user_id < u2.user_id` removes self-comparisons and prevents duplicate reversed pairs.
+
+![Task 5 Result](session9_task5.png)
