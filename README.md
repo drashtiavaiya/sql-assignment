@@ -302,3 +302,35 @@ Used `UNION ALL` to combine every online and in-store order without removing any
 - `UNION ALL` keeps duplicate rows and returned 8 customer names.
 
 ![Task 4 Result](session10_task4.png)
+
+---
+
+# SQL Assignment – Session 11
+
+## Subqueries: Scalar, Correlated, and Derived Tables
+
+[View the complete Session 11 SQL file](session11.sql)
+
+### Task 1: Restaurants Rated Above Average
+
+Used a scalar subquery to calculate the average restaurant rating and display restaurants rated above that average.
+
+![Task 1 Result](session11_task1.png)
+
+### Task 2: Products Priced Above Their Category Average
+
+Used a correlated subquery to compare each product’s price with the average price of its own category.
+
+![Task 2 Result](session11_task2.png)
+
+### Task 3: Users With More Playlists Than Average
+
+Used a derived table in the `FROM` clause to count playlists per user and filter users whose playlist count was above average.
+
+![Task 3 Result](session11_task3.png)
+
+### Task 4: Users With an Order Above the Average Amount
+
+Used a scalar subquery in the `WHERE` clause to find users who placed at least one order above the overall average order amount.
+
+![Task 4 Result](session11_task4.png)
