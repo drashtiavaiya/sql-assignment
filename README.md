@@ -372,3 +372,35 @@ Created a CTE to calculate each city’s average rating and display restaurants 
 Created the `TeamRuns` CTE to calculate total runs per team during 2023 and filter teams with totals above 2,000.
 
 ![Task 5 Result](session12_task5.png)
+
+---
+
+# SQL Assignment – Session 13
+
+## Window Functions: OVER and PARTITION BY
+
+[View the complete Session 13 SQL file](session13.sql)
+
+### Task 1: Total Amount Across All Orders
+
+Used `SUM(order_amount) OVER()` to display every order alongside the total amount of all orders.
+
+![Task 1 Result](session13_task1.png)
+
+### Task 2: Average Order Amount per User
+
+Used `AVG(order_amount) OVER(PARTITION BY user_id)` to calculate each user’s average order amount without combining their individual order rows.
+
+![Task 2 Result](session13_task2.png)
+
+### Task 3: Total Playlist Duration per User
+
+Used `SUM(duration_sec) OVER(PARTITION BY user_id)` to display every song alongside the user’s total playlist duration.
+
+![Task 3 Result](session13_task3.png)
+
+### Task 4: User Rating Compared With Movie Average
+
+Used a partitioned average to calculate each movie’s average rating and subtract it from each individual user rating.
+
+![Task 4 Result](session13_task4.png)
