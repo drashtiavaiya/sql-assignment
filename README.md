@@ -514,3 +514,38 @@ Used `REPLACE()` to replace the dashes in each SKU code with underscores.
 ## SQL File
 
 [View complete Session 16 SQL](session16.sql)
+
+
+---
+
+# SQL Assignment – Session 17
+
+## CASE WHEN – Conditional Logic
+
+### Task 1: Classify Food Orders
+
+Used `CASE WHEN` to classify orders as Small, Medium, or Large based on the total amount.
+
+![Session 17 Task 1 Output](session17_task1.png)
+
+### Task 2: Classify Movies by Rating
+
+Used `CASE WHEN` to classify movies as Blockbuster, Hit, or Average based on their ratings.
+
+![Session 17 Task 2 Output](session17_task2.png)
+
+### Task 3: Categorize Products by Price
+
+Used `CASE WHEN` to categorize products as Budget, Standard, or Premium according to their prices.
+
+![Session 17 Task 3 Output](session17_task3.png)
+
+### Task 4: Classify Tracks by Duration
+
+Used multiple `WHEN` conditions to label Spotify tracks as Short, Medium, or Long based on their duration.
+
+![Session 17 Task 4 Output](session17_task4.png)
+
+## SQL File
+
+[View complete Session 17 SQL](session17.sql)
