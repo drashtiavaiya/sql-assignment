@@ -549,3 +549,43 @@ Used multiple `WHEN` conditions to label Spotify tracks as Short, Medium, or Lon
 ## SQL File
 
 [View complete Session 17 SQL](session17.sql)
+
+---
+
+# SQL Assignment – Session 18
+
+## SQL Views
+
+### Task 1: Top-Rated Restaurants View
+
+Created the `TopRatedRestaurants` view to display restaurant names, average ratings, and total reviews for restaurants with an average rating above 4.0.
+
+![Session 18 Task 1 Output](session18_task1.png)
+
+### Task 2: Add City to the View
+
+Updated the view using an `INNER JOIN` to include each restaurant’s city.
+
+![Session 18 Task 2 Output](session18_task2.png)
+
+### Task 3: View Update Limitation
+
+Tried to update the average rating through the view. The update failed because views containing aggregate functions, joins, and `GROUP BY` cannot be updated directly.
+
+![Session 18 Task 3 Output](session18_task3.png)
+
+### Task 4: Daily Order Summary
+
+Created the `DailyOrderSummary` view to show the total orders and revenue for each date within the last 30 days.
+
+![Session 18 Task 4 Output](session18_task4.png)
+
+### Task 5: Good Practices for SQL Views
+
+Listed three useful practices: use descriptive view names, include only required data, and avoid unnecessary joins.
+
+![Session 18 Task 5 Output](session18_task5.png)
+
+## SQL File
+
+[View complete Session 18 SQL](session18.sql)
