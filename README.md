@@ -474,3 +474,43 @@ Used `DATEDIFF()` to calculate the total number of days between each subscriptio
 Used `DATEDIFF()` with `CURDATE()` to find users who had not logged in during the previous 30 days.
 
 ![Task 5 Result](session15_task5.png)
+
+---
+
+# SQL Assignment – Session 16
+
+## String Functions
+
+### Task 1: Combine First and Last Names
+
+Used `CONCAT()` to combine the first name and last name into one full name.
+
+![Session 16 Task 1 Output](session16_task1.png)
+
+### Task 2: Convert Song Titles to Uppercase
+
+Used `UPPER()` to display all song titles in uppercase.
+
+![Session 16 Task 2 Output](session16_task2.png)
+
+### Task 3: Remove Extra Spaces
+
+Used `TRIM()` to remove the extra spaces from the beginning and end of each item code.
+
+![Session 16 Task 3 Output](session16_task3.png)
+
+### Task 4: Extract IMDb Number
+
+Used `RIGHT()` to extract the last seven characters from each IMDb ID.
+
+![Session 16 Task 4 Output](session16_task4.png)
+
+### Task 5: Replace Dashes in Product Codes
+
+Used `REPLACE()` to replace the dashes in each SKU code with underscores.
+
+![Session 16 Task 5 Output](session16_task5.png)
+
+## SQL File
+
+[View complete Session 16 SQL](session16.sql)
