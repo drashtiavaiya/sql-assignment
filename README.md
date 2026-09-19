@@ -436,3 +436,41 @@ Used `DENSE_RANK()` to rank movies by rating within each genre, with the highest
 Used `ROW_NUMBER()` inside a CTE and filtered rows where the generated row number was less than or equal to 3.
 
 ![Task 4 Result](session14_task4.png)
+
+---
+
+# SQL Assignment – Session 15
+
+## Date Functions
+
+[View the complete Session 15 SQL file](session15.sql)
+
+### Task 1: Current Date and Time
+
+Used `NOW()` to display the current date and time.
+
+![Task 1 Result](session15_task1.png)
+
+### Task 2: Extract Year, Month, and Day
+
+Used `YEAR()`, `MONTH()`, and `DAY()` to separate each order date into individual date components.
+
+![Task 2 Result](session15_task2.png)
+
+### Task 3: Calculate Expected Pickup Date
+
+Used `DATE_SUB()` to calculate a pickup date two days before each delivery date.
+
+![Task 3 Result](session15_task3.png)
+
+### Task 4: Calculate Subscription Duration
+
+Used `DATEDIFF()` to calculate the total number of days between each subscription’s start date and end date.
+
+![Task 4 Result](session15_task4.png)
+
+### Task 5: Users Inactive for More Than 30 Days
+
+Used `DATEDIFF()` with `CURDATE()` to find users who had not logged in during the previous 30 days.
+
+![Task 5 Result](session15_task5.png)
