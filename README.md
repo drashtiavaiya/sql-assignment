@@ -334,3 +334,41 @@ Used a derived table in the `FROM` clause to count playlists per user and filter
 Used a scalar subquery in the `WHERE` clause to find users who placed at least one order above the overall average order amount.
 
 ![Task 4 Result](session11_task4.png)
+
+---
+
+# SQL Assignment – Session 12
+
+## Common Table Expressions
+
+[View the complete Session 12 SQL file](session12.sql)
+
+### Task 1: Three Most-Followed Artists
+
+Created the `TopArtists` CTE to select the three artists with the highest follower counts.
+
+![Task 1 Result](session12_task1.png)
+
+### Task 2: Month With the Highest Sales
+
+Created the `MonthlyTotals` CTE to calculate monthly sales during 2023 and return the highest-sales month.
+
+![Task 2 Result](session12_task2.png)
+
+### Task 3: Seven Dates Using a Recursive CTE
+
+Created the recursive `CalendarDays` CTE to generate seven consecutive dates beginning with the current date.
+
+![Task 3 Result](session12_task3.png)
+
+### Task 4: Restaurants in Cities With Ratings Above 4.0
+
+Created a CTE to calculate each city’s average rating and display restaurants in cities whose average rating was above 4.0.
+
+![Task 4 Result](session12_task4.png)
+
+### Task 5: IPL Teams With More Than 2,000 Runs
+
+Created the `TeamRuns` CTE to calculate total runs per team during 2023 and filter teams with totals above 2,000.
+
+![Task 5 Result](session12_task5.png)
