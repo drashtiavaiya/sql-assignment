@@ -404,3 +404,35 @@ Used `SUM(duration_sec) OVER(PARTITION BY user_id)` to display every song alongs
 Used a partitioned average to calculate each movie’s average rating and subtract it from each individual user rating.
 
 ![Task 4 Result](session13_task4.png)
+
+---
+
+# SQL Assignment – Session 14
+
+## Window Functions: ROW_NUMBER, RANK, and DENSE_RANK
+
+[View the complete Session 14 SQL file](session14.sql)
+
+### Task 1: Sequential Order Number per User
+
+Used `ROW_NUMBER()` with `PARTITION BY user_id` to number each user’s orders from newest to oldest.
+
+![Task 1 Result](session14_task1.png)
+
+### Task 2: Song Rank Within Each Artist
+
+Used `RANK()` to rank songs by streams within each artist. Songs with equal streams received the same rank.
+
+![Task 2 Result](session14_task2.png)
+
+### Task 3: Movie Rank Within Each Genre
+
+Used `DENSE_RANK()` to rank movies by rating within each genre, with the highest-rated movie receiving rank 1.
+
+![Task 3 Result](session14_task3.png)
+
+### Task 4: Top Three Influencers per Platform
+
+Used `ROW_NUMBER()` inside a CTE and filtered rows where the generated row number was less than or equal to 3.
+
+![Task 4 Result](session14_task4.png)
