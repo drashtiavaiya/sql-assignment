@@ -1,0 +1,7 @@
+match_id,match_date,season,team1,team2,winner,venue,city,player_of_match,win_by_runs,win_by_wickets
+5,2024-03-24,2024,"Gujarat Titans","Mumbai Indians","Gujarat Titans","Narendra Modi Stadium",Ahmedabad,"Sai Sudharsan",6,0
+8,2024-03-27,2024,"Sunrisers Hyderabad","Mumbai Indians","Sunrisers Hyderabad","Rajiv Gandhi International Stadium",Hyderabad,"Abhishek Sharma",31,0
+14,2024-04-01,2024,"Mumbai Indians","Rajasthan Royals","Rajasthan Royals","Wankhede Stadium",Mumbai,"Trent Boult",0,6
+20,2024-04-07,2024,"Mumbai Indians","Delhi Capitals","Mumbai Indians","Wankhede Stadium",Mumbai,"Romario Shepherd",29,0
+25,2024-04-11,2024,"Mumbai Indians","Royal Challengers Bengaluru","Mumbai Indians","Wankhede Stadium",Mumbai,"Jasprit Bumrah",0,7
+29,2024-04-14,2024,"Mumbai Indians","Chennai Super Kings","Chennai Super Kings","Wankhede Stadium",Mumbai,"Matheesha Pathirana",20,0
