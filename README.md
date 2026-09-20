@@ -589,3 +589,48 @@ Listed three useful practices: use descriptive view names, include only required
 ## SQL File
 
 [View complete Session 18 SQL](session18.sql)
+
+
+---
+
+# SQL Assignment – Session 19
+
+## Indexing and Query Optimization
+
+### Task 1: Query Before Adding an Index
+
+Ran a query on the large `Orders` table to find orders for a specific user and recorded its execution time before adding an index.
+
+![Session 19 Task 1 Output](session19_task1.png)
+
+### Task 2: Add an Index
+
+Created an index on `user_id` and ran the same query again. The indexed query scanned fewer rows and executed more efficiently.
+
+![Session 19 Task 2 Output](session19_task2.png)
+
+### Task 3: Compare Execution Plans
+
+Without the index, MySQL used a full table scan with `type = ALL`, no selected key, and approximately 10,000 examined rows.
+
+![Session 19 Task 3 Before Index](session19_task3_before.png)
+
+With the index, MySQL used `idx_user_id` and examined only the matching rows.
+
+![Session 19 Task 3 After Index](session19_task3_after.png)
+
+### Task 4: Optimize the Products Query
+
+Created an index on the `category` column and used it to retrieve products from a specific category without scanning the complete table.
+
+![Session 19 Task 4 Output](session19_task4.png)
+
+### Task 5: Additional Query Optimization
+
+Used `EXPLAIN ANALYZE` to examine the actual execution plan. The query was improved by selecting only the required columns and using `LIMIT` to reduce the amount of data processed and returned.
+
+![Session 19 Task 5 Output](session19_task5.png)
+
+## SQL File
+
+[View complete Session 19 SQL](session19.sql)
