@@ -722,3 +722,41 @@ Created minimum and maximum rating parameters and displayed restaurants with rat
 
 - [SQL Queries](session21.sql)
 - [Excel Dashboard](session21_restaurant_dashboard-.xlsx)
+---
+
+## Session 22 – SQL and Python Integration
+
+### Task 1: Load Restaurant Data into Pandas
+
+Used `pandas.read_sql()` to load restaurant records from a SQLite database and displayed the first five rows.
+
+![Session 22 Task 1](session22_task1.png)
+
+### Task 2: Run SQL Using Jupyter Magic
+
+Used SQL magic in Jupyter Notebook to display movies with ratings above 8.
+
+![Session 22 Task 2](session22_task2.png)
+
+### Task 3: Find the Most Ordered Food Items
+
+Loaded the latest 100 orders into a DataFrame and identified the three most frequently ordered food items.
+
+![Session 22 Task 3](session22_task3.png)
+
+### Task 4: Analyze IPL Matches
+
+Loaded match data from SQLite, counted the matches played by each team, and displayed the results in a bar chart.
+
+![Session 22 Task 4](session22_task4.png)
+
+### Task 5: Find Frequent Customers
+
+Used a SQL query with pandas to find users who placed more than five orders.
+
+![Session 22 Task 5](session22_task5.png)
+
+### Files
+
+- [Jupyter Notebook](session22_python.ipynb)
+- [SQLite Database](session22.db)
