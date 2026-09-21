@@ -634,3 +634,52 @@ Used `EXPLAIN ANALYZE` to examine the actual execution plan. The query was impro
 ## SQL File
 
 [View complete Session 19 SQL](session19.sql)
+
+
+---
+
+# SQL Assignment – Session 20
+
+## SQL, CSV, Power BI and Python Integration
+
+### Task 1: Import IPL Match Data
+
+Imported the IPL match CSV file into MySQL as the `ipl_matches` table. The table contains 30 match records.
+
+![Session 20 Task 1 Output](session20_task1.png)
+
+### Task 2: Export Mumbai Indians Matches
+
+Used an SQL query to find all matches where Mumbai Indians played and exported the results as `mi_matches.csv`.
+
+![Session 20 Task 2 Output](session20_task2.png)
+
+### Task 3: Team-Wise Match Summary
+
+Combined the `team1` and `team2` columns and calculated the total number of matches played by each team.
+
+![Session 20 Task 3 Output](session20_task3.png)
+
+### Task 4: Power BI Wins Chart
+
+Loaded the IPL match data into Power BI and created a bar chart showing the total number of wins for each team.
+
+![Session 20 Task 4 Output](session20_task4.png)
+
+### Task 5: Python and SQL Integration
+
+Used pandas to read `mi_matches.csv` and filtered the matches won by Mumbai Indians. SQLAlchemy was then used to insert the filtered records into the `mi_wins` table.
+
+![Session 20 Task 5 Python Output](session20_task5_python.png)
+
+Verified the newly created `mi_wins` table in MySQL.
+
+![Session 20 Task 5 SQL Output](session20_task5_sql.png)
+
+## Files
+
+- [View Session 20 SQL](session20.sql)
+- [View IPL match data](ipl_matches.csv)
+- [View Mumbai Indians match data](mi_matches.csv)
+- [View Python notebook](session20_python.ipynb)
+- [Download Power BI report](session20_powerbi.pbix)
