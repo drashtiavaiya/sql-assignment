@@ -683,3 +683,42 @@ Verified the newly created `mi_wins` table in MySQL.
 - [View Mumbai Indians match data](mi_matches.csv)
 - [View Python notebook](session20_python.ipynb)
 - [Download Power BI report](session20_powerbi.pbix)
+
+---
+
+## Session 21 – SQL and Excel Integration
+
+### Task 1: Connect Excel to MySQL
+
+Connected Excel to the MySQL database using Power Query and loaded the Restaurants table.
+
+![Session 21 Task 1](session21_task1.png)
+
+### Task 2: Filter Restaurants by Cuisine
+
+Created a cuisine input in Excel and used it to display restaurants matching the selected cuisine.
+
+![Session 21 Task 2](session21_task2.png)
+
+### Task 3: Refresh Data from MySQL
+
+Added a new restaurant record in MySQL and used Refresh All in Excel to update the results.
+
+![Session 21 Task 3](session21_task3.png)
+
+### Task 4: Restaurant Rating Dashboard
+
+Displayed restaurants with ratings above 4.0 and created a bar chart for comparison.
+
+![Session 21 Task 4](session21_task4.png)
+
+### Task 5: Filter Restaurants by Rating Range
+
+Created minimum and maximum rating parameters and displayed restaurants with ratings between 3.5 and 5.0.
+
+![Session 21 Task 5](session21_task5.png)
+
+### Files
+
+- [SQL Queries](session21.sql)
+- [Excel Dashboard](session21_restaurant_dashboard-.xlsx)
