@@ -807,3 +807,36 @@ Segmented restaurants into Budget, Mid-range, and Premium categories based on th
 ### File
 
 - [SQL Case Study](zomato_case_study.sql)
+
+---
+
+## Python for Data Analytics – Session 1
+
+### Task 1: Launch Jupyter Notebook
+
+Opened Jupyter Notebook and created a new notebook for the introductory Python tasks.
+
+![Python Session 1 Task 1](python_session1_task1.png)
+
+### Task 2: First Python Output
+
+Used `print()` to display my name and favorite application.
+
+![Python Session 1 Task 2](python_session1_task2.png)
+
+### Task 3: Run a Python Script
+
+Created and executed a Python script from the Windows Command Prompt.
+
+![Python Session 1 Task 3](python_session1_task3.png)
+
+### Task 4: Display the Current Year
+
+Used the `datetime` module to obtain and print the current year.
+
+![Python Session 1 Task 4](python_session1_task4.png)
+
+### Files
+
+- [Jupyter Notebook](analytics_intro.ipynb)
+- [Python Script](hello_app.py)
