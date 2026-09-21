@@ -760,3 +760,50 @@ Used a SQL query with pandas to find users who placed more than five orders.
 
 - [Jupyter Notebook](session22_python.ipynb)
 - [SQLite Database](session22.db)
+
+
+---
+
+## Zomato Bangalore Restaurants – SQL Case Study
+
+This case study uses restaurant data to examine ratings, cuisines, pricing, customer interest, and market categories.
+
+### Dataset Setup
+
+Created the restaurant table with location, cuisine, restaurant type, rating, votes, and cost information.
+
+![Zomato Dataset Setup](zomato_setup.png)
+
+### Task 1: Highest-Rated Restaurants in Koramangala
+
+Found the five highest-rated restaurants in Koramangala and displayed their ratings and vote counts.
+
+![Zomato Task 1](zomato_task1.png)
+
+### Task 2: Cuisines Available in Indiranagar
+
+Separated the cuisine values and counted how many restaurants offer each cuisine in Indiranagar.
+
+![Zomato Task 2](zomato_task2.png)
+
+### Task 3: Average Cost by Restaurant Type
+
+Calculated the average cost for two people for each restaurant type and ordered the results from most to least expensive.
+
+![Zomato Task 3](zomato_task3.png)
+
+### Task 4: Low-Rated Restaurants with High Customer Interest
+
+Identified restaurants with ratings below 3.0 and more than 200 votes, then assigned suitable marketing actions.
+
+![Zomato Task 4](zomato_task4.png)
+
+### Task 5: Market Segmentation
+
+Segmented restaurants into Budget, Mid-range, and Premium categories based on their cost for two people.
+
+![Zomato Task 5](zomato_task5.png)
+
+### File
+
+- [SQL Case Study](zomato_case_study.sql)
