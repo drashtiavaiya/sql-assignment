@@ -877,3 +877,40 @@ Compared mixed indentation with a corrected block that uses four spaces consiste
 ### File
 
 - [Jupyter Notebook](python_session2_variables.ipynb)
+---
+
+## Python for Data Analytics – Session 3
+
+### Task 1: Python Data Types
+
+Created integer, float, string, and boolean variables and displayed their data types.
+
+![Python Session 3 Task 1](python_session3_task1.png)
+
+### Task 2: Calculate GST Using Type Casting
+
+Converted a user-entered order price from a string to a float and calculated the final bill with 18% GST.
+
+![Python Session 3 Task 2](python_session3_task2.png)
+
+### Task 3: Convert Product Prices
+
+Converted product prices from strings to floats and calculated the total cart value.
+
+![Python Session 3 Task 3](python_session3_task3.png)
+
+### Task 4: Check Discount Eligibility
+
+Created a function that returns whether an order qualifies for a discount.
+
+![Python Session 3 Task 4](python_session3_task4.png)
+
+### Task 5: Find the Highest Rating
+
+Converted a list of rating strings to floats and found the highest rating.
+
+![Python Session 3 Task 5](python_session3_task5.png)
+
+### File
+
+- [Jupyter Notebook](python_session3_data_types.ipynb)
