@@ -1564,3 +1564,43 @@ Loaded a Titanic dataset and exported it to an Excel file using the custom sheet
 - [Zomato Restaurant CSV File](zomato_restaurants.csv)
 - [Filtered IPL CSV File](filtered_data.csv)
 - [Titanic Analysis Excel File](titanic_analysis.xlsx)
+---
+
+## Pandas – Session 3
+
+This assignment covers selecting rows and columns using `loc` and `iloc`, Boolean filtering, and the `query()` method.
+
+### Task 1 – Selecting Movie Columns with loc
+
+Loaded movie data and used `loc` to select only the title and rating columns.
+
+![Pandas Session 3 Task 1](pandas_session3_task1.png)
+
+### Task 2 – Selecting Flipkart Products with iloc
+
+Used `iloc` to select the first 10 rows and all columns from a Flipkart products DataFrame.
+
+![Pandas Session 3 Task 2](pandas_session3_task2.png)
+
+### Task 3 – Filtering Food Orders
+
+Used a Boolean condition to display food orders with an order amount greater than ₹500.
+
+![Pandas Session 3 Task 3](pandas_session3_task3.png)
+
+### Task 4 – Querying Spotify Songs
+
+Used `query()` to select songs with more than 1,000,000 streams and a duration below 180 seconds.
+
+![Pandas Session 3 Task 4](pandas_session3_task4.png)
+
+### Task 5 – Filtering IPL Matches
+
+Used Boolean indexing to select IPL matches where total runs were between 180 and 220.
+
+![Pandas Session 3 Task 5](pandas_session3_task5.png)
+
+### Files
+
+- [Pandas Session 3 Assignment](pandas_session3_assignment.ipynb)
+- [Movies CSV File](movies.csv)
