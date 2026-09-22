@@ -988,3 +988,34 @@ Used a list for changeable favorite genres and a tuple for fixed train classes.
 ### File
 
 - [Jupyter Notebook](python_session5_lists_tuples.ipynb)
+---
+
+## Python for Data Analytics – Session 6
+
+### Task 1: Create a Playlist Dictionary
+
+Created a dictionary containing playlist names and their prices.
+
+![Python Session 6 Task 1](python_session6_task1.png)
+
+### Task 2: Update a Dictionary Value
+
+Created a function that updates the price of a selected playlist.
+
+![Python Session 6 Task 2](python_session6_task2.png)
+
+### Task 3: Delete a Dictionary Entry
+
+Removed a playlist using the `del` statement and displayed the updated dictionary.
+
+![Python Session 6 Task 3](python_session6_task3.png)
+
+### Task 4: Set Union and Intersection
+
+Used union and intersection to compare restaurants ordered from on two delivery platforms.
+
+![Python Session 6 Task 4](python_session6_task4.png)
+
+### File
+
+- [Jupyter Notebook](python_session6_dictionaries_sets.ipynb)
