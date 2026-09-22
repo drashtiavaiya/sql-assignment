@@ -1457,3 +1457,34 @@ Created an abstract payment class and implemented separate UPI and credit-card p
 ### File
 
 - [Jupyter Notebook](python_session20_encapsulation_abstraction.ipynb)
+---
+
+## Python for Data Analytics – Session 21
+
+### Task 1: Product Discount Override
+
+Created a base product class and an electronics subclass that overrides the discount method.
+
+![Python Session 21 Task 1](python_session21_task1.png)
+
+### Task 2: Food Order Total Override
+
+Created a Zomato order subclass that overrides the total calculation to include a delivery charge.
+
+![Python Session 21 Task 2](python_session21_task2.png)
+
+### Task 3: Employee Bonus Polymorphism
+
+Used one function to display different bonus values for influencer and brand-manager objects.
+
+![Python Session 21 Task 3](python_session21_task3.png)
+
+### Task 4: User Status Override
+
+Demonstrated method overriding by returning different statuses for regular and premium users.
+
+![Python Session 21 Task 4](python_session21_task4.png)
+
+### File
+
+- [Jupyter Notebook](python_session21_inheritance_polymorphism.ipynb)
