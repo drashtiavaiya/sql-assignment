@@ -914,3 +914,40 @@ Converted a list of rating strings to floats and found the highest rating.
 ### File
 
 - [Jupyter Notebook](python_session3_data_types.ipynb)
+---
+
+## Python for Data Analytics – Session 4
+
+### Task 1: Change String Case
+
+Used string methods to display a product name in uppercase and lowercase.
+
+![Python Session 4 Task 1](python_session4_task1.png)
+
+### Task 2: Clean a Brand Name
+
+Created a function that removes extra spaces and replaces hyphens with spaces.
+
+![Python Session 4 Task 2](python_session4_task2.png)
+
+### Task 3: Extract Brand and Model
+
+Used string indexing and slicing to separate a product’s brand name and model.
+
+![Python Session 4 Task 3](python_session4_task3.png)
+
+### Task 4: Format Product Information
+
+Created a function that returns a formatted product name and price.
+
+![Python Session 4 Task 4](python_session4_task4.png)
+
+### Task 5: Clean Multiple Product Names
+
+Cleaned a list of product names using `strip()`, `replace()`, and `title()`.
+
+![Python Session 4 Task 5](python_session4_task5.png)
+
+### File
+
+- [Jupyter Notebook](python_session4_strings.ipynb)
