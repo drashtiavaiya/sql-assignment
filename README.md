@@ -840,3 +840,40 @@ Used the `datetime` module to obtain and print the current year.
 
 - [Jupyter Notebook](analytics_intro.ipynb)
 - [Python Script](hello_app.py)
+---
+
+## Python for Data Analytics – Session 2
+
+### Task 1: Create Basic Variables
+
+Created variables for a user name, favorite application, and daily usage hours.
+
+![Python Session 2 Task 1](python_session2_task1.png)
+
+### Task 2: Variables and Data Types
+
+Created product variables and displayed each value with its Python data type.
+
+![Python Session 2 Task 2](python_session2_task2.png)
+
+### Task 3: Python Comments
+
+Demonstrated single-line and multiline comments using a music recommendation example.
+
+![Python Session 2 Task 3](python_session2_task3.png)
+
+### Task 4: Naming Conventions and Formatted Output
+
+Created variables for an online food order and displayed them in a formatted sentence.
+
+![Python Session 2 Task 4](python_session2_task4.png)
+
+### Task 5: Correct Python Indentation
+
+Compared mixed indentation with a corrected block that uses four spaces consistently.
+
+![Python Session 2 Task 5](python_session2_task5.png)
+
+### File
+
+- [Jupyter Notebook](python_session2_variables.ipynb)
