@@ -1312,3 +1312,43 @@ Created a generator that calculates and yields 5% cashback for Paytm transaction
 ### File
 
 - [Jupyter Notebook](python_session16_iterators_generators.ipynb)
+---
+
+## Python for Data Analytics – Session 17
+
+### Task 1: Use the Math Module
+
+Used the `math` module to calculate a square root, factorial, and value of pi.
+
+![Python Session 17 Task 1](python_session17_task1.png)
+
+### Task 2: Filter Image Files
+
+Used the `os` module to list files and display only JPG, JPEG, and PNG images.
+
+![Python Session 17 Task 2](python_session17_task2.png)
+
+### Task 3: Display the Day of the Week
+
+Used the `datetime` module to convert a date into its weekday name.
+
+![Python Session 17 Task 3](python_session17_task3.png)
+
+### Task 4: Custom Follower Count Module
+
+Created and imported a custom module that formats follower counts using K and M notation.
+
+![Python Session 17 Task 4](python_session17_task4.png)
+
+### Task 5: Virtual Environment and Packages
+
+Created a virtual environment and used the `statistics` and `requests` modules in a separate script.
+
+![Python Session 17 Task 5](python_session17_task5.png)
+
+### Files
+
+- [Jupyter Notebook](python_session17_modules_packages.ipynb)
+- [Custom Utility Module](insta_utils.py)
+- [Module Usage Script](use_insta_utils.py)
+- [Statistics Script](session17_statistics.py)
