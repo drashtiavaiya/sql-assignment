@@ -1019,3 +1019,34 @@ Used union and intersection to compare restaurants ordered from on two delivery 
 ### File
 
 - [Jupyter Notebook](python_session6_dictionaries_sets.ipynb)
+---
+
+## Python for Data Analytics – Session 7
+
+### Task 1: Check Ticket Eligibility
+
+Used an `if-else` statement to check whether a user is eligible for IPL ticket booking.
+
+![Python Session 7 Task 1](python_session7_task1.png)
+
+### Task 2: Classify an Influencer
+
+Used `if`, `elif`, and `else` conditions to classify a user based on follower count.
+
+![Python Session 7 Task 2](python_session7_task2.png)
+
+### Task 3: Check Delivery Eligibility
+
+Checked a food order total and displayed the appropriate delivery message.
+
+![Python Session 7 Task 3](python_session7_task3.png)
+
+### Task 4: Calculate Cashback Eligibility
+
+Used nested conditions to determine cashback eligibility based on cart value and payment method.
+
+![Python Session 7 Task 4](python_session7_task4.png)
+
+### File
+
+- [Jupyter Notebook](python_session7_conditionals.ipynb)
