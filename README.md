@@ -1488,3 +1488,36 @@ Demonstrated method overriding by returning different statuses for regular and p
 ### File
 
 - [Jupyter Notebook](python_session21_inheritance_polymorphism.ipynb)
+---
+
+## Pandas – Session 1
+
+This assignment covers the basics of Pandas Series and DataFrames.
+
+### Task 1 – Favourite IPL Teams
+
+Created a Pandas Series containing five favourite IPL teams.
+
+![Pandas Session 1 Task 1](pandas_session1_task1.png)
+
+### Task 2 – Food Orders DataFrame
+
+Created a DataFrame containing recent food orders with item, restaurant, and price details.
+
+![Pandas Session 1 Task 2](pandas_session1_task2.png)
+
+### Task 3 – Instagram Followers
+
+Created a Pandas Series of follower counts and used `idxmax()` and `idxmin()` to find the influencers with the highest and lowest followers.
+
+![Pandas Session 1 Task 3](pandas_session1_task3.png)
+
+### Task 4 – Music Playlist
+
+Created a playlist DataFrame and displayed only the song and duration columns.
+
+![Pandas Session 1 Task 4](pandas_session1_task4.png)
+
+### File
+
+- [Pandas Session 1 Assignment](pandas_session1_assignment.ipynb)
