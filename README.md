@@ -1198,3 +1198,43 @@ Demonstrated local and global variable behaviour using online and offline status
 ### File
 
 - [Jupyter Notebook](python_session13_recursion_scope.ipynb)
+---
+
+## Python for Data Analytics – Session 14
+
+### Task 1: Create a Playlist File
+
+Used file handling to create a text file containing five song names.
+
+![Python Session 14 Task 1](python_Session14_task1.png)
+
+### Task 2: Read the Playlist File
+
+Read the playlist file and displayed each song name in uppercase.
+
+![Python Session 14 Task 2](python_session14_task2.png)
+
+### Task 3: Read and Write CSV Data
+
+Created an IPL match CSV file and displayed the winning team for each match.
+
+![Python Session 14 Task 3](python_session14_task3.png)
+
+### Task 4: Read and Write JSON Data
+
+Created and loaded a JSON profile containing a username, follower count, and bio.
+
+![Python Session 14 Task 4](python_session14_task4.png)
+
+### Task 5: Check Whether a File Exists
+
+Used `pathlib` to check whether `zomato_orders.json` exists in the current directory.
+
+![Python Session 14 Task 5](python_session1_task5.png)
+
+### Files
+
+- [Jupyter Notebook](python_session14_file_handling.ipynb)
+- [Playlist Text File](my_playlist.txt)
+- [IPL Scores CSV File](ipl_scores.csv)
+- [User Profile JSON File](user_profile.json)
