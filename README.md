@@ -1352,3 +1352,40 @@ Created a virtual environment and used the `statistics` and `requests` modules i
 - [Custom Utility Module](insta_utils.py)
 - [Module Usage Script](use_insta_utils.py)
 - [Statistics Script](session17_statistics.py)
+---
+
+## Python for Data Analytics – Session 18
+
+### Task 1: Extract Indian Phone Numbers
+
+Used `re.findall()` to extract valid 10-digit Indian phone numbers starting with 7, 8, or 9.
+
+![Python Session 18 Task 1](python_session18_task1.png)
+
+### Task 2: Find a Date
+
+Used `re.search()` to check whether text contains a date in `DD/MM/YYYY` format.
+
+![Python Session 18 Task 2](python_session18_task2.png)
+
+### Task 3: Extract Email Addresses
+
+Used a regular expression to extract valid email addresses from messy review text.
+
+![Python Session 18 Task 3](python_sessoin18_task3.png)
+
+### Task 4: Mask a Phone Number
+
+Used `re.sub()` to hide all digits except the final four digits of a phone number.
+
+![Python Session 18 Task 4](python_session18_task4.png)
+
+### Task 5: Validate Flipkart Order IDs
+
+Created a regular expression to find valid Flipkart-style order IDs.
+
+![Python Session 18 Task 5](python_session18_task5.png)
+
+### File
+
+- [Jupyter Notebook](python_session18_regular_expressions.ipynb)
