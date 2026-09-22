@@ -1389,3 +1389,40 @@ Created a regular expression to find valid Flipkart-style order IDs.
 ### File
 
 - [Jupyter Notebook](python_session18_regular_expressions.ipynb)
+---
+
+## Python for Data Analytics – Session 19
+
+### Task 1: Create a Song Class
+
+Defined a `Song` class with title, artist, and duration attributes.
+
+![Python Session 19 Task 1](python_session19_task1.png)
+
+### Task 2: Create a Song Object
+
+Created a song object and displayed its attributes.
+
+![Python Session 19 Task 2](python_session19_task2.png)
+
+### Task 3: Add a Song Method
+
+Added a method that displays a 30-second song preview message.
+
+![Python Session 19 Task 3](python_session19_task3.png)
+
+### Task 4: Create a Food Order Class
+
+Created a `FoodOrder` class that stores ordered items and calculates the total price.
+
+![Python Session 19 Task 4](python_session19_task4.png)
+
+### Task 5: Track Song Plays
+
+Added a play-count attribute and method to track how many times a song is played.
+
+![Python Session 19 Task 5](python_session19_task5.png)
+
+### File
+
+- [Jupyter Notebook](python_session19_oop_basics.ipynb)
