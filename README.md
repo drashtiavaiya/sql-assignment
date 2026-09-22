@@ -1238,3 +1238,40 @@ Used `pathlib` to check whether `zomato_orders.json` exists in the current direc
 - [Playlist Text File](my_playlist.txt)
 - [IPL Scores CSV File](ipl_scores.csv)
 - [User Profile JSON File](user_profile.json)
+---
+
+## Python for Data Analytics – Session 15
+
+### Task 1: Safe Division
+
+Created a function that handles division by zero using `ZeroDivisionError`.
+
+![Python Session 15 Task 1](python_session15_task1.png)
+
+### Task 2: Rating Calculator
+
+Calculated an average rating while handling invalid non-numeric input using `ValueError`.
+
+![Python Session 15 Task 2](python_session15_task2.png)
+
+### Task 3: Custom Duration Exception
+
+Created a custom `InvalidDurationError` exception to prevent negative song durations.
+
+![Python Session 15 Task 3](python_session15_task3.png)
+
+### Task 4: Order Summary
+
+Built an order summary using `try`, `except`, `else`, and `finally` blocks.
+
+![Python Session 15 Task 4](python_session15_task4.png)
+
+### Task 5: Multiple Exception Handling
+
+Handled both invalid input and division by zero using separate exception blocks.
+
+![Python Session 15 Task 5](python_session15_task5.png)
+
+### File
+
+- [Jupyter Notebook](python_session15_exception_handling.ipynb)
