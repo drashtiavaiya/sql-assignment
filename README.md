@@ -1275,3 +1275,40 @@ Handled both invalid input and division by zero using separate exception blocks.
 ### File
 
 - [Jupyter Notebook](python_session15_exception_handling.ipynb)
+---
+
+## Python for Data Analytics – Session 16
+
+### Task 1: Movie List Iterator
+
+Used `iter()` and `next()` to manually display trending movie names.
+
+![Python Session 16 Task 1](python_session16_task1.png)
+
+### Task 2: Playlist Tracker
+
+Used `enumerate()` to display songs with their playlist positions.
+
+![Python Session 16 Task 2](python_session16_task2.png)
+
+### Task 3: Food Items and Prices
+
+Used `zip()` to combine food items with their corresponding prices.
+
+![Python Session 16 Task 3](python_session16_task3.png)
+
+### Task 4: Instagram Caption Generator
+
+Created a generator that yields Instagram post captions one at a time.
+
+![Python Session 16 Task 4](python_session16_task4.png)
+
+### Task 5: Cashback Generator
+
+Created a generator that calculates and yields 5% cashback for Paytm transactions.
+
+![Python Session 16 Task 5](python_session16_task5.png)
+
+### File
+
+- [Jupyter Notebook](python_session16_iterators_generators.ipynb)
