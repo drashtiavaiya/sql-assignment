@@ -1426,3 +1426,34 @@ Added a play-count attribute and method to track how many times a song is played
 ### File
 
 - [Jupyter Notebook](python_session19_oop_basics.ipynb)
+---
+
+## Python for Data Analytics – Session 20
+
+### Task 1: Product Price Encapsulation
+
+Created a `Product` class with an encapsulated price attribute and a method to display it.
+
+![Python Session 20 Task 1](python_session20_task1.png)
+
+### Task 2: Price Getter and Setter
+
+Added getter and setter methods that safely access the price and prevent negative values.
+
+![Python Session 20 Task 2](python_session20_task2.png)
+
+### Task 3: Encapsulated Playlist
+
+Created a `Playlist` class with methods to add, remove, and retrieve songs while protecting the internal list.
+
+![Python Session 20 Task 3](python_session20_task3.png)
+
+### Task 4: Abstract Payment Method
+
+Created an abstract payment class and implemented separate UPI and credit-card payment methods.
+
+![Python Session 20 Task 4](python_session20_task4.png)
+
+### File
+
+- [Jupyter Notebook](python_session20_encapsulation_abstraction.ipynb)
