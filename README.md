@@ -1161,3 +1161,40 @@ Used `map()`, `filter()`, and `reduce()` together to double numbers, keep values
 ### File
 
 - [Jupyter Notebook](python_session12_functional_tools.ipynb)
+---
+
+## Python for Data Analytics – Session 13
+
+### Task 1: Reverse a String Recursively
+
+Created a recursive function that reverses a given string.
+
+![Python Session 13 Task 1](python_session13_task1.png)
+
+### Task 2: Calculate Playlist Duration
+
+Used recursion to calculate the total duration of songs in a playlist.
+
+![Python Session 13 Task 2](python_session13_task2.png)
+
+### Task 3: Local and Global Scope
+
+Demonstrated the difference between local and global variables using separate `count` values.
+
+![Python Session 13 Task 3](python_session13_task3.png)
+
+### Task 4: Count Nested Likes
+
+Created a recursive function to calculate likes from Instagram posts and nested replies.
+
+![Python Session 13 Task 4](python_session13_task4.png)
+
+### Task 5: WhatsApp Status Scope
+
+Demonstrated local and global variable behaviour using online and offline status values.
+
+![Python Session 13 Task 5](python_session13_task5.png)
+
+### File
+
+- [Jupyter Notebook](python_session13_recursion_scope.ipynb)
