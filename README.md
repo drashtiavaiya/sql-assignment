@@ -1521,3 +1521,46 @@ Created a playlist DataFrame and displayed only the song and duration columns.
 ### File
 
 - [Pandas Session 1 Assignment](pandas_session1_assignment.ipynb)
+---
+
+## Pandas – Session 2
+
+This assignment covers reading CSV and Excel files, inspecting datasets, generating statistical summaries, and exporting DataFrames.
+
+### Task 1 – Reading an IPL CSV File
+
+Loaded an IPL match dataset using `read_csv()` and displayed the first 10 rows using `head()`.
+
+![Pandas Session 2 Task 1](pandas_session2_task1.png)
+
+### Task 2 – Reading an Excel File
+
+Created and loaded a mobile-expenses Excel file using `read_excel()` and displayed the last three rows using `tail()`.
+
+![Pandas Session 2 Task 2](pandas_session2_task2.png)
+
+### Task 3 – Dataset Information and Statistics
+
+Used `info()` and `describe()` to examine restaurant data, column types, missing values, and summary statistics.
+
+![Pandas Session 2 Task 3](pandas_session2_task3.png)
+
+### Task 4 – Exporting Filtered Data to CSV
+
+Selected the first 20 IPL records and exported them to `filtered_data.csv`.
+
+![Pandas Session 2 Task 4](pandas_session2_task4.png)
+
+### Task 5 – Exporting Data to Excel
+
+Loaded a Titanic dataset and exported it to an Excel file using the custom sheet name `Analysis2024`.
+
+![Pandas Session 2 Task 5](pandas_session2_task5.png)
+
+### Files
+
+- [Pandas Session 2 Assignment](pandas_session2_assignment.ipynb)
+- [Mobile Expenses Excel File](mobile_expenses.xlsx)
+- [Zomato Restaurant CSV File](zomato_restaurants.csv)
+- [Filtered IPL CSV File](filtered_data.csv)
+- [Titanic Analysis Excel File](titanic_analysis.xlsx)
