@@ -1124,3 +1124,40 @@ Created a function that calculates cashback using default and custom cashback ra
 ### File
 
 - [Jupyter Notebook](python_session9_functions.ipynb)
+---
+
+## Python for Data Analytics – Session 12
+
+### Task 1: Add GST Using Lambda
+
+Created a lambda function that adds 18% GST to product prices.
+
+![Python Session 12 Task 1](python_session12_task1.png)
+
+### Task 2: Clean Song Titles Using Map
+
+Used `map()` with a lambda function to remove extra spaces and convert song titles to title case.
+
+![Python Session 12 Task 2](python_session12_task2.png)
+
+### Task 3: Filter Product Names
+
+Used `filter()` with a lambda function to select product names beginning with the letter S.
+
+![Python Session 12 Task 3](python_session12_task3.png)
+
+### Task 4: Calculate Total Bill Using Reduce
+
+Used `reduce()` to calculate the total of all order amounts.
+
+![Python Session 12 Task 4](python_session12_task4.png)
+
+### Task 5: Process and Sum Numbers
+
+Used `map()`, `filter()`, and `reduce()` together to double numbers, keep values above 100, and calculate their sum.
+
+![Python Session 12 Task 5](python_session12_task5.png)
+
+### File
+
+- [Jupyter Notebook](python_session12_functional_tools.ipynb)
