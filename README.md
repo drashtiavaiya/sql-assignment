@@ -951,3 +951,40 @@ Cleaned a list of product names using `strip()`, `replace()`, and `title()`.
 ### File
 
 - [Jupyter Notebook](python_session4_strings.ipynb)
+---
+
+## Python for Data Analytics – Session 5
+
+### Task 1: Add a Playlist ID
+
+Created a list of playlist IDs and added a new ID using `append()`.
+
+![Python Session 5 Task 1](python_session5_task1.png)
+
+### Task 2: Extend a Shopping Cart
+
+Added multiple products to a shopping cart using `extend()`.
+
+![Python Session 5 Task 2](python_session5_task2.png)
+
+### Task 3: Remove the Last Order Item
+
+Created a function that removes and returns the last item using `pop()`.
+
+![Python Session 5 Task 3](python_session5_task3.png)
+
+### Task 4: Tuple Immutability
+
+Demonstrated that tuple values cannot be modified after creation.
+
+![Python Session 5 Task 4](python_session5_task4.png)
+
+### Task 5: Lists and Tuples
+
+Used a list for changeable favorite genres and a tuple for fixed train classes.
+
+![Python Session 5 Task 5](python_session5_task5.png)
+
+### File
+
+- [Jupyter Notebook](python_session5_lists_tuples.ipynb)
