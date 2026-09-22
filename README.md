@@ -1050,3 +1050,40 @@ Used nested conditions to determine cashback eligibility based on cart value and
 ### File
 
 - [Jupyter Notebook](python_session7_conditionals.ipynb)
+---
+
+## Python for Data Analytics – Session 8
+
+### Task 1: Calculate Total Order Value
+
+Used a `for` loop to calculate the total value of all order amounts.
+
+![Python Session 8 Task 1](python_session8_task1.png)
+
+### Task 2: Stop at a Score Above 100
+
+Used a `while` loop with `break` to print cricket scores until encountering a score above 100.
+
+![Python Session 8 Task 2](python_session8_task2.png)
+
+### Task 3: Skip Items Below ₹200
+
+Used a `for` loop with `continue` to skip item prices below ₹200 and calculate the remaining total.
+
+![Python Session 8 Task 3](python_session8_task3.png)
+
+### Task 4: Display Favourite Songs
+
+Used `enumerate()` to print favourite songs with their positions starting from 1.
+
+![Python Session 8 Task 4](python_session8_task4.png)
+
+### Task 5: Categorize Follower Counts
+
+Used a loop with conditional statements to classify follower counts as Micro, Influencer, or Celebrity.
+
+![Python Session 8 Task 5](python_session8_task5.png)
+
+### File
+
+- [Jupyter Notebook](python_session8_loops.ipynb)
