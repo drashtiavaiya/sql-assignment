@@ -1087,3 +1087,40 @@ Used a loop with conditional statements to classify follower counts as Micro, In
 ### File
 
 - [Jupyter Notebook](python_session8_loops.ipynb)
+---
+
+## Python for Data Analytics – Session 9
+
+### Task 1: Calculate Final Price
+
+Created a function that calculates the final price after applying a discount rate.
+
+![Python Session 9 Task 1](python_session9_task1.png)
+
+### Task 2: Calculate Delivery Charge
+
+Created a function with a default city argument to return the appropriate delivery charge.
+
+![Python Session 9 Task 2](python_session9_task2.png)
+
+### Task 3: Format Coupon Message
+
+Created a function with a default discount value to generate a personalized coupon message.
+
+![Python Session 9 Task 3](python_session9_task3.png)
+
+### Task 4: Apply Default Discount
+
+Used a default function argument to apply a 10% discount when no rate is provided.
+
+![Python Session 9 Task 4](python_session9_task4.png)
+
+### Task 5: Calculate Cashback
+
+Created a function that calculates cashback using default and custom cashback rates.
+
+![Python Session 9 Task 5](python_session9_task5.png)
+
+### File
+
+- [Jupyter Notebook](python_session9_functions.ipynb)
