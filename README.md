@@ -1604,3 +1604,42 @@ Used Boolean indexing to select IPL matches where total runs were between 180 an
 
 - [Pandas Session 3 Assignment](pandas_session3_assignment.ipynb)
 - [Movies CSV File](movies.csv)
+---
+
+## Pandas – Session 4
+
+This assignment covers sorting DataFrames, resetting indexes, and rearranging rows using reindexing.
+
+### Task 1 – Sorting Movies by Rating
+
+Created a Bollywood movies DataFrame and sorted the movies from highest to lowest rating using `sort_values()`.
+
+![Pandas Session 4 Task 1](pandas_session4_task1.png)
+
+### Task 2 – Sorting IPL Teams by Index
+
+Used `sort_index()` with descending order to reverse the default index of an IPL teams DataFrame.
+
+![Pandas Session 4 Task 2](pandas_session4_task2.png)
+
+### Task 3 – Resetting the Index
+
+Reset the index of a trending YouTube videos DataFrame using `reset_index(drop=True)` so the old index was not added as a column.
+
+![Pandas Session 4 Task 3](pandas_session4_task3.png)
+
+### Task 4 – Reindexing Restaurant Data
+
+Rearranged the rows of a Zomato restaurants DataFrame so the favourite restaurant appeared first.
+
+![Pandas Session 4 Task 4](pandas_session4_task4.png)
+
+### Task 5 – Sorting Flipkart Products
+
+Sorted Flipkart products by discount in descending order and reset the index to start sequentially from zero.
+
+![Pandas Session 4 Task 5](pandas_session4_task5.png)
+
+### File
+
+- [Pandas Session 4 Assignment](pandas_session4_assignment.ipynb)
