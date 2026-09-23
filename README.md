@@ -1920,3 +1920,42 @@ Combined three monthly sales CSV files and calculated total sales for each produ
 - [January Sales CSV](sales_jan.csv)
 - [February Sales CSV](sales_feb.csv)
 - [March Sales CSV](sales_mar.csv)
+---
+
+## Pandas – Session 12
+
+This assignment covers grouping data and calculating totals, averages, minimums, and maximums.
+
+### Task 1 – IPL Runs by Team
+
+Loaded an IPL deliveries CSV and calculated the total runs scored by each batting team.
+
+![Pandas Session 12 Task 1](pandas_session12_task1.png)
+
+### Task 2 – Average Orders by City and Restaurant
+
+Grouped food orders by city and restaurant to calculate their average order amounts.
+
+![Pandas Session 12 Task 2](pandas_session12_task2.png)
+
+### Task 3 – Sales by Category and Region
+
+Calculated total sales and average units sold for each category and region.
+
+![Pandas Session 12 Task 3](pandas_session12_task3.png)
+
+### Task 4 – Revenue Statistics by Region
+
+Used `agg()` to calculate the total, highest, and lowest revenue for each region.
+
+![Pandas Session 12 Task 4](pandas_session12_task4.png)
+
+### Task 5 – Spotify Streams by Genre
+
+Calculated total and average streams per genre, then sorted the genres by total streams.
+
+![Pandas Session 12 Task 5](pandas_session12_task5.png)
+
+### File
+
+- [Pandas Session 12 Assignment](pandas_session12_assignment.ipynb)
