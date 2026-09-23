@@ -1643,3 +1643,47 @@ Sorted Flipkart products by discount in descending order and reset the index to 
 ### File
 
 - [Pandas Session 4 Assignment](pandas_session4_assignment.ipynb)
+---
+
+## Pandas – Session 5
+
+This assignment covers identifying, removing, and replacing missing values using `isnull()`, `dropna()`, `fillna()`, mean, median, and zero replacement.
+
+### Task 1 – Finding Missing Player Ages
+
+Loaded IPL player data and displayed only the rows where the age value was missing.
+
+![Pandas Session 5 Task 1](pandas_session5_task1.png)
+
+### Task 2 – Removing Missing Delivery Ratings
+
+Used `dropna()` to remove food-delivery orders where the delivery rating was missing.
+
+![Pandas Session 5 Task 2](pandas_session5_task2.png)
+
+### Task 3 – Filling Ratings with the Mean
+
+Calculated the mean product rating and used `fillna()` to replace missing Flipkart review ratings.
+
+![Pandas Session 5 Task 3](pandas_session5_task3.png)
+
+### Task 4 – Filling Durations with the Median
+
+Replaced missing Spotify song durations with the median duration and exported the cleaned playlist to a new CSV file.
+
+![Pandas Session 5 Task 4](pandas_session5_task4.png)
+
+### Task 5 – Replacing Missing Followers with Zero
+
+Replaced all missing Instagram follower counts with zero and exported the cleaned data.
+
+![Pandas Session 5 Task 5](pandas_session5_task5.png)
+
+### Files
+
+- [Pandas Session 5 Assignment](pandas_session5_assignment.ipynb)
+- [IPL Players CSV](ipl_players.csv)
+- [Spotify Playlist CSV](spotify_playlist.csv)
+- [Cleaned Spotify Playlist CSV](cleaned_spotify_playlist.csv)
+- [Instagram Users CSV](instagram_users.csv)
+- [Cleaned Instagram Users CSV](cleaned_instagram_users.csv)
