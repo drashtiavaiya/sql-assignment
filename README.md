@@ -1687,3 +1687,43 @@ Replaced all missing Instagram follower counts with zero and exported the cleane
 - [Cleaned Spotify Playlist CSV](cleaned_spotify_playlist.csv)
 - [Instagram Users CSV](instagram_users.csv)
 - [Cleaned Instagram Users CSV](cleaned_instagram_users.csv)
+---
+
+## Pandas – Session 6
+
+This assignment covers removing duplicates and finding outliers using the IQR and Z-score methods.
+
+### Task 1 – Removing Duplicate Spotify Songs
+
+Loaded Spotify streams from a CSV file and kept the first occurrence of each song using `drop_duplicates()`.
+
+![Pandas Session 6 Task 1](pandas_session6_task1.png)
+
+### Task 2 – Counting Duplicate Reviews
+
+Counted Flipkart reviews with repeated `product_id` and `user_id` combinations.
+
+![Pandas Session 6 Task 2](pandas_session6_task2.png)
+
+### Task 3 – Finding Order Amount Outliers
+
+Calculated Q1, Q3, and IQR to identify unusual Zomato order amounts.
+
+![Pandas Session 6 Task 3](pandas_session6_task3.png)
+
+### Task 4 – Finding Unusual Ticket Sales
+
+Calculated Z-scores for daily IPL ticket sales and displayed days with an absolute Z-score greater than 2.
+
+![Pandas Session 6 Task 4](pandas_session6_task4.png)
+
+### Task 5 – Outlier Detection Function
+
+Created a function that returns Paytm transaction amounts identified as outliers by their Z-scores.
+
+![Pandas Session 6 Task 5](pandas_session6_task5.png)
+
+### Files
+
+- [Pandas Session 6 Assignment](pandas_session6_assignment.ipynb)
+- [Spotify Streams CSV](spotify_streams.csv)
