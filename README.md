@@ -1727,3 +1727,43 @@ Created a function that returns Paytm transaction amounts identified as outliers
 
 - [Pandas Session 6 Assignment](pandas_session6_assignment.ipynb)
 - [Spotify Streams CSV](spotify_streams.csv)
+---
+
+## Pandas – Session 7
+
+This assignment covers creating columns, applying functions, formatting values, and calculating order totals.
+
+### Task 1 – Product Sales Value
+
+Loaded Flipkart-style product sales from a CSV file and calculated `TotalValue` as `Price * Qty`.
+
+![Pandas Session 7 Task 1](pandas_session7_task1.png)
+
+### Task 2 – Discounted Food Prices
+
+Used `apply()` with a lambda function to calculate a 10% discount for each item.
+
+![Pandas Session 7 Task 2](pandas_session7_task2.png)
+
+### Task 3 – Formatting Instagram Counts
+
+Used a helper function and `applymap()` to display likes and comments in formats such as `1.5K` and `2M`.
+
+![Pandas Session 7 Task 3](pandas_session7_task3.png)
+
+### Task 4 – Final Order Amount
+
+Used `apply()` across each row to calculate `Price * Qty + DeliveryCharge`.
+
+![Pandas Session 7 Task 4](pandas_session7_task4.png)
+
+### Task 5 – GST Calculation
+
+Ran a ChatGPT-generated snippet that calculates 5% GST on `Price * Qty` for Myntra-style orders.
+
+![Pandas Session 7 Task 5](pandas_session7_task5.png)
+
+### Files
+
+- [Pandas Session 7 Assignment](pandas_session7_assignment.ipynb)
+- [Flipkart Product Sales CSV](flipkart_product_sales.csv)
