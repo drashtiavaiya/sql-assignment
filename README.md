@@ -1959,3 +1959,19 @@ Calculated total and average streams per genre, then sorted the genres by total 
 ### File
 
 - [Pandas Session 12 Assignment](pandas_session12_assignment.ipynb)
+from google.colab import files
+files.download("IPL_2023_Batsmen.csv")## Pandas Session 13 — Exploratory Data Analysis
+
+Analyzed 2023 IPL batting data and a sample restaurant dataset using Pandas.
+
+- Loaded the batting data and displayed the first 10 players.
+- Calculated the mean, median, mode, minimum, and maximum runs.
+- Examined the correlation between restaurant ratings and votes.
+- Summarized the numeric batting columns with `describe()`.
+- Examined the correlation between innings and runs.
+
+**Dataset note:** The batting data comes from an IPL career progression dataset filtered to the 2023 season. `Innings` means innings batted, rather than matches played.
+
+**Files:** [Notebook](pandas_session13_assignment.ipynb) · [IPL batting CSV](IPL_2023_Batsmen.csv)
+
+**Screenshots:** [Task 1](pandas_session13_task1.png) · [Task 2](pandas_session13_task2.png) · [Task 3](pandas_session13_task3.png) · [Task 4](pandas_session13_task4.png) · [Task 5](pandas_session13_task5.png)
