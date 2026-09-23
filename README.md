@@ -1806,3 +1806,36 @@ Used `str.upper()` and `str.replace()` to make YouTube titles uppercase and repl
 ### File
 
 - [Pandas Session 8 Assignment](pandas_session8_assignment.ipynb)
+---
+
+## Pandas – Session 9
+
+This assignment covers converting date strings, extracting date parts, generating date ranges, and calculating subscription tenure.
+
+### Task 1 – Converting Date Strings
+
+Converted dates in `DD-MM-YYYY` format to datetime values using `pd.to_datetime()`.
+
+![Pandas Session 9 Task 1](pandas_session9_task1.png)
+
+### Task 2 – Extracting Movie Release Dates
+
+Extracted the year, month, and day from movie release dates using the `.dt` accessor.
+
+![Pandas Session 9 Task 2](pandas_session9_task2.png)
+
+### Task 3 – Generating a Date Range
+
+Used `pd.date_range()` to generate seven dates starting from today in India.
+
+![Pandas Session 9 Task 3](pandas_session9_task3.png)
+
+### Task 4 – Calculating Subscription Tenure
+
+Converted subscription start dates to datetime values and calculated each user's tenure in days.
+
+![Pandas Session 9 Task 4](pandas_session9_task4.png)
+
+### File
+
+- [Pandas Session 9 Assignment](pandas_session9_assignment.ipynb)
