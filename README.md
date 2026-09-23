@@ -1839,3 +1839,42 @@ Converted subscription start dates to datetime values and calculated each user's
 ### File
 
 - [Pandas Session 9 Assignment](pandas_session9_assignment.ipynb)
+---
+
+## Pandas – Session 10
+
+This assignment covers merging DataFrames with inner, left, outer, and right joins.
+
+### Task 1 – Users with Orders
+
+Used an inner join to show users who placed an order.
+
+![Pandas Session 10 Task 1](pandas_session10_task1.png)
+
+### Task 2 – All Users and Their Orders
+
+Used a left join to keep every user, including those without orders.
+
+![Pandas Session 10 Task 2](pandas_session10_task2.png)
+
+### Task 3 – Restaurants and Reviews
+
+Used an outer join to include all restaurants and reviews, even when one side had no match.
+
+![Pandas Session 10 Task 3](pandas_session10_task3.png)
+
+### Task 4 – Matching Playlists and Profiles
+
+Merged playlists with user profiles on both `user_id` and `city`.
+
+![Pandas Session 10 Task 4](pandas_session10_task4.png)
+
+### Task 5 – Products and Ratings
+
+Compared the default inner merge with a right join that keeps all product ratings.
+
+![Pandas Session 10 Task 5](pandas_session10_task5.png)
+
+### File
+
+- [Pandas Session 10 Assignment](pandas_session10_assignment.ipynb)
