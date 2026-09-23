@@ -1878,3 +1878,45 @@ Compared the default inner merge with a right join that keeps all product rating
 ### File
 
 - [Pandas Session 10 Assignment](pandas_session10_assignment.ipynb)
+---
+
+## Pandas – Session 11
+
+This assignment covers combining DataFrames, reshaping data, and summarizing sales.
+
+### Task 1 – Combining Monthly Orders
+
+Used `pd.concat()` to stack January and February food orders into one DataFrame.
+
+![Pandas Session 11 Task 1](pandas_session11_task1.png)
+
+### Task 2 – Adding Product Ratings
+
+Used `pd.concat(axis=1)` to place product details and ratings side by side.
+
+![Pandas Session 11 Task 2](pandas_session11_task2.png)
+
+### Task 3 – Reshaping Song Streams
+
+Used `pivot()` to display each Spotify user as a row and each day as a column.
+
+![Pandas Session 11 Task 3](pandas_session11_task3.png)
+
+### Task 4 – Average Restaurant Orders
+
+Used `pivot_table()` to calculate the average order amount for each restaurant by month.
+
+![Pandas Session 11 Task 4](pandas_session11_task4.png)
+
+### Task 5 – Total Sales by Product
+
+Combined three monthly sales CSV files and calculated total sales for each product.
+
+![Pandas Session 11 Task 5](pandas_session11_task5.png)
+
+### Files
+
+- [Pandas Session 11 Assignment](pandas_session11_assignment.ipynb)
+- [January Sales CSV](sales_jan.csv)
+- [February Sales CSV](sales_feb.csv)
+- [March Sales CSV](sales_mar.csv)
