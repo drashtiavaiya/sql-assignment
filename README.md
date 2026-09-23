@@ -1975,3 +1975,23 @@ Analyzed 2023 IPL batting data and a sample restaurant dataset using Pandas.
 **Files:** [Notebook](pandas_session13_assignment.ipynb) · [IPL batting CSV](IPL_2023_Batsmen.csv)
 
 **Screenshots:** [Task 1](pandas_session13_task1.png) · [Task 2](pandas_session13_task2.png) · [Task 3](pandas_session13_task3.png) · [Task 4](pandas_session13_task4.png) · [Task 5](pandas_session13_task5.png)
+## Pandas Session 14 — IPL Mini Project
+
+Analyzed IPL matches from 2008–2022 with Pandas: cleaned missing winners, classified win margins, added team home cities, and counted wins by season using a pivot table.
+
+[View the notebook](pandas_session14_assignment.ipynb) · [IPL dataset source](https://github.com/kkamal11/EDA_on_IPL/blob/main/IPL_Matches_2008_2022.csv)
+
+### Task 1 — Load IPL matches
+![Task 1: First five IPL matches](pandas_session14_task1.png)
+
+### Task 2 — Clean missing winners
+![Task 2: Matches after removing missing winners](pandas_session14_task2.png)
+
+### Task 3 — Classify win margins
+![Task 3: Runs, wickets, and tie or no result](pandas_session14_task3.png)
+
+### Task 4 — Add team home cities
+![Task 4: IPL teams merged with home cities](pandas_session14_task4.png)
+
+### Task 5 — Wins by season
+![Task 5: Pivot table and top three teams](pandas_session14_task5.png)
