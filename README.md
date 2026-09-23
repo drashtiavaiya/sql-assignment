@@ -1767,3 +1767,42 @@ Ran a ChatGPT-generated snippet that calculates 5% GST on `Price * Qty` for Mynt
 
 - [Pandas Session 7 Assignment](pandas_session7_assignment.ipynb)
 - [Flipkart Product Sales CSV](flipkart_product_sales.csv)
+---
+
+## Pandas – Session 8
+
+This assignment covers cleaning and transforming text with Pandas string methods.
+
+### Task 1 – Lowercase Usernames
+
+Used `str.lower()` to convert Instagram usernames to lowercase.
+
+![Pandas Session 8 Task 1](pandas_session8_task1.png)
+
+### Task 2 – Removing “Remix” from Song Titles
+
+Used `str.replace()` to remove “Remix” from Spotify song titles.
+
+![Pandas Session 8 Task 2](pandas_session8_task2.png)
+
+### Task 3 – Finding Delivery Reviews
+
+Used `str.contains()` with case insensitive matching to find Zomato reviews mentioning delivery.
+
+![Pandas Session 8 Task 3](pandas_session8_task3.png)
+
+### Task 4 – Extracting Main Categories
+
+Used `str.split()` to extract the first part of Flipkart product categories.
+
+![Pandas Session 8 Task 4](pandas_session8_task4.png)
+
+### Task 5 – Formatting Video Titles
+
+Used `str.upper()` and `str.replace()` to make YouTube titles uppercase and replace spaces with underscores.
+
+![Pandas Session 8 Task 5](pandas_session8_task5.png)
+
+### File
+
+- [Pandas Session 8 Assignment](pandas_session8_assignment.ipynb)
