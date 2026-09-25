@@ -2093,3 +2093,8 @@ ELT loads raw data first, then transforms it in the destination. For example, a 
 [Written response](da_session2_task5.txt)
 
 ![Task 5 OLTP and OLAP classifications](da_session2_task5.png)
+## Data Analytics — Session 3
+
+This session covers domain knowledge, e-commerce KPIs, customer acquisition cost, and a proposed delivery experience metric.
+
+[Read the complete Session 3 answers](da_session3_answers.txt)
