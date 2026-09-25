@@ -2038,3 +2038,58 @@ Diagnostic analytics helps explain why something happened. Zomato could examine 
 [Written response](da_session1_task5.txt)
 
 ![Task 5 written response](da_session1_task5.png)
+## Data Analytics — Session 2
+
+### Task 1 — CSV in Excel and Notepad
+
+I opened an IPL match scores CSV in both Excel and Notepad.
+
+1. Excel separates the fields into columns and shows each match in a row. Notepad shows each match as a line of text with commas between the fields.
+2. Excel formats dates for display; narrow date cells can show `####`. Notepad shows the dates exactly as stored in the CSV.
+
+[IPL match scores CSV](matches.csv)
+
+![Task 1 CSV opened in Excel](da_session2_task1_excel.png)
+
+![Task 1 CSV opened in Notepad](da_session2_task1_notepad.png)
+
+### Task 2 — Movie titles from JSON
+
+Created a sample JSON file containing movie titles. A Python script in Colab reads the JSON and prints each title.
+
+[Sample JSON](da_session2_movies.json) · [Python notebook](da_session2_task2.ipynb)
+
+![Task 2 Python code and movie titles](da_session2_task2.png)
+
+### Task 3 — Restaurant data in MySQL
+
+Created a small Excel sheet with five sample restaurant records. I used a matching CSV copy in MySQL Workbench's Table Data Import Wizard and checked the column types. All five rows were imported into `session2_db.da_session2_zomato_restaurants`.
+
+[Excel file](da_session2_zomato_restaurants.xlsx) · [Import CSV](da_session2_zomato_restaurants.csv) · [Verification query](da_session2_task3.sql)
+
+![Task 3 restaurant data in Excel](da_session2_task3_excel.png)
+
+![Task 3 MySQL import result](da_session2_task3_import.png)
+
+![Task 3 MySQL table verification](da_session2_task3_sql.png)
+
+### Task 4 — ETL and ELT
+
+ETL transforms data before loading it into the destination. For example, a food delivery app could clean and deduplicate orders before loading them into a reporting database.
+
+ELT loads raw data first, then transforms it in the destination. For example, a music app could load listening events into a warehouse and calculate each user's most-played songs there.
+
+[Written response](da_session2_task4.txt)
+
+![Task 4 ETL and ELT explanation](da_session2_task4.png)
+
+### Task 5 — OLTP or OLAP
+
+- Booking a movie ticket: **OLTP** — records a booking and updates seat availability.
+- Generating a monthly sales report: **OLAP** — summarises many past sales records.
+- Adding a WhatsApp contact: **OLTP** — saves an individual record.
+- Analysing five seasons of IPL performance: **OLAP** — compares historical match data.
+
+[Written response](da_session2_task5.txt)
+
+![Task 5 OLTP and OLAP classifications](da_session2_task5.png)
