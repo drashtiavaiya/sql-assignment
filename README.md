@@ -1995,3 +1995,46 @@ Analyzed IPL matches from 2008–2022 with Pandas: cleaned missing winners, clas
 
 ### Task 5 — Wins by season
 ![Task 5: Pivot table and top three teams](pandas_session14_task5.png)
+## Data Analytics — Session 1
+
+This session uses the IPL 2023 matches dataset to explore the same data in Excel, MySQL, Python, and Power BI.
+
+### Task 1 — Excel insights
+
+Explored the IPL 2023 matches dataset in Excel and recorded insights.
+
+[Excel workbook](data_analytics_session1_task1.xlsx)
+
+![Task 1 Excel insights](data_analytics_session1_task1.png)
+
+### Task 2 — Matches played by each team in SQL
+
+Imported the CSV into `session1_db.matches`. The table contains 74 matches. Counted appearances in both `team1` and `team2` to find each team's total matches played.
+
+[SQL query](da_session1_task2.sql) · [IPL 2023 CSV](IPL_2023_Matches.csv)
+
+![Task 2 SQL query and results](da_session1_task2.png)
+
+### Task 3 — Matches won by each team in Python
+
+Used pandas to count the values in the `winner` column. The results show 73 wins; one match had no winner.
+
+[Colab notebook](da_session1_task3.ipynb)
+
+![Task 3 Python code and results](da_session1_task3.png)
+
+### Task 4 — Matches played per city in Power BI
+
+Created a bar chart with `city` and the count of `match_id` to show how many matches were played in each city.
+
+[Power BI report](da_session1_task4.pbix)
+
+![Task 4 Power BI bar chart](da_session1_task4.png)
+
+### Task 5 — Diagnostic analytics example
+
+Diagnostic analytics helps explain why something happened. Zomato could examine cancelled orders alongside delivery times, restaurant preparation times, and customer complaints. If long preparation delays cause many cancellations, more accurate delivery estimates and earlier alerts could improve the ordering experience.
+
+[Written response](da_session1_task5.txt)
+
+![Task 5 written response](da_session1_task5.png)
