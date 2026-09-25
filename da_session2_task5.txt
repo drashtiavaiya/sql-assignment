@@ -1,0 +1,4 @@
+1. Booking a movie ticket on BookMyShow — OLTP. It records one booking and updates seat availability immediately.
+2. Generating a monthly sales report for Flipkart sellers — OLAP. It summarises many past sales records to show trends and totals.
+3. Adding a new contact in WhatsApp: OLTP. It saves an individual contact record for everyday use.
+4. Analysing IPL team performance over five seasons: OLAP. It compares historical match data across several years.

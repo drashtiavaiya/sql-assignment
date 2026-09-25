@@ -1,0 +1,3 @@
+ETL means Extract, Transform, Load: data is cleaned and organised before it enters the destination database. For example, a food delivery app like Swiggy could extract order records, correct missing restaurant names and remove duplicate orders, then load the cleaned records into a reporting database.
+
+ELT means Extract, Load, Transform: raw data is loaded first and processed in the destination system. For example, a music app like Spotify could load listening events into a data warehouse, then calculate each user’s most-played songs there. The main difference is when the transformation happens: before loading in ETL and after loading in ELT.
