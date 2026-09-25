@@ -1,0 +1,24 @@
+SESSION 3 : DOMAIN UNDERSTANDING FOR ANALYTICS
+
+Task 1  Why domain knowledge matters
+
+I chose Flipkart because e-commerce data can be misleading without an understanding of the order journey. A placed order is not necessarily a completed sale: it may be cancelled, returned or refunded. I would clarify how each stage is recorded before measuring sales, so the analysis reflects what the business actually earned.
+
+Task 2 : Four KPIs for Flipkart
+
+1. Net revenue. Sales from completed orders after cancellations and refunds. This gives a more reliable view of sales than the value of all orders placed.
+2. Profit margin. The share of revenue left after costs. It shows whether higher sales are also improving profitability.
+3. Average order value. Net revenue divided by completed orders. This helps track changes in customer spending per order.
+4. Repeat customer rate. The percentage of customers who make another purchase. It helps assess whether Flipkart is retaining customers beyond their first order.
+
+Task 3 : Customer acquisition cost for Paytm
+
+Paytm could calculate customer acquisition cost for a campaign by dividing its acquisition spending by the number of new customers gained. If it spends ₹80,000 on advertising and ₹20,000 on sign-up incentives, and the campaign brings in 400 new customers, the CAC is (₹80,000 + ₹20,000) ÷ 400 = ₹250 per customer. I would count only customers acquired through that campaign, using the same period for both spending and sign-ups.
+
+Task 4 : A new metric for Swiggy
+
+I would introduce a Smooth Delivery Rate: the percentage of completed orders delivered by the promised time without a delivery-related complaint.
+
+Smooth Delivery Rate = (On-time orders with no delivery complaint ÷ Completed orders) × 100
+
+On-time delivery alone may miss problems such as poor handoffs or difficulty contacting a rider. Tracking this rate by area and time of day could help Swiggy identify where the delivery experience needs attention.
