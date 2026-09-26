@@ -1,0 +1,4 @@
+Session 6 Task 3
+Expected Outcomes
+
+The analysis should identify cities and cuisines where restaurant ratings are consistently low, giving the partnership team a starting point for quality reviews. It should show how ratings and prices vary by location so customers can find better-value options. It should also highlight cities with well-rated restaurants that do not yet offer online delivery, helping the team prioritize potential delivery partners.

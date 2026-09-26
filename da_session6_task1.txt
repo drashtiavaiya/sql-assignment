@@ -1,0 +1,7 @@
+Session 6 
+Task 1
+Zomato Case Study
+
+1. Which cities and cuisines have the greatest concentration of low-rated restaurants? This could help Zomato identify where restaurant quality needs attention.
+2. How do restaurant ratings vary across price ranges and cities? This could help customers find good-value options and show partners where pricing may be out of line with customer expectations.
+3. Which cities have highly rated restaurants but limited online-delivery availability? This could identify opportunities to expand delivery partnerships.

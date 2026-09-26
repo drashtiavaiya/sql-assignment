@@ -1,0 +1,8 @@
+Task 4
+ Food-Delivery Scenario
+
+Business question: In which areas and time periods are orders most likely to arrive later than promised, and where in the delivery process does the delay occur?
+
+Data needed: An order-level dataset containing the order ID, area, restaurant, order time, food-ready time, pickup time, promised delivery time, actual delivery time, distance, and order status.
+
+Expected outcome: The analysis would distinguish restaurant preparation delays from courier pickup and travel delays. Operations managers could then adjust courier coverage at busy times and work with restaurants that repeatedly miss preparation targets.
