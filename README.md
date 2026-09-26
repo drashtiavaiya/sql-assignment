@@ -2164,3 +2164,32 @@ I used conditional formatting with thresholds one standard deviation above and b
 A pivot table summarizes wickets by team and venue, allowing performance to be compared across both categories.
 
 ![Task 5 — Wickets by team and venue](da_session5_task5.png)
+## Session 6 — Case Study Orientation
+
+### Task 1: Zomato business questions
+I selected the Zomato case study and framed three questions about restaurant ratings, value for money, and online-delivery availability.
+
+[Read the business questions](da_session6_task1.txt)
+
+![Task 1 — Zomato business questions](da_session6_task1.png)
+
+### Task 2: Dataset and workflow
+I used a [public copy of a Kaggle-sourced Zomato restaurant dataset](https://github.com/praffs18/Data-Analysis-on-Zomato-Dataset). The workflow diagram shows how the CSV can be prepared and analyzed before its findings are used for business decisions.
+
+[Download the dataset](da_session6_zomato.csv)
+
+![Task 2 — Dataset opened in Excel](da_session6_task2_dataset.png)
+
+### Task 3: Expected outcomes
+The proposed analysis would identify restaurant quality concerns, compare ratings with prices, and highlight opportunities to expand online-delivery partnerships. These are expected outcomes, not findings claimed from the dataset.
+
+[Read the expected outcomes](da_session6_task3.txt)
+
+![Task 3 — Expected outcomes](da_session6_task3.png)
+
+### Task 4: Food-delivery scenario
+I defined a late-delivery question, listed the order-level data needed to investigate it, and described how the results could guide restaurant and courier operations.
+
+[Read the food-delivery scenario](da_session6_task4.txt)
+
+![Task 4 — Food-delivery scenario](da_session6_task4.png)
