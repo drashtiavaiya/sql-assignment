@@ -2134,3 +2134,33 @@ I created a bar chart from sample ticket counts for three movies. Dune: Part Two
 [Download the Task 5 spreadsheet](da_session4_task5_movie_tickets.xlsx)
 
 ![Task 5 — Movie ticket sales bar chart](da_session4_task5.png)
+## Session 5 — Exploratory Data Analysis
+
+This session uses a small, illustrative IPL-style practice dataset. The records are designed for analysis exercises and are not official match results.
+
+[Download the completed Excel workbook](da_session5_ipl_eda.xlsx)
+
+### Task 1: Open the dataset
+The workbook contains player, team, venue, balls faced, runs scored, wickets, and match result fields.
+
+![Task 1 — IPL practice dataset](da_session5_task1.png)
+
+### Task 2: Univariate analysis
+Using Excel functions on `runs_scored`, I calculated a mean of 33.92, median of 28.5, minimum of 1, and maximum of 108.
+
+![Task 2 — Summary statistics](da_session5_task2.png)
+
+### Task 3: Bivariate analysis
+The scatter plot compares balls faced with runs scored. In this sample, players who faced more balls generally scored more runs.
+
+![Task 3 — Balls faced versus runs scored](da_session5_task3.png)
+
+### Task 4: Identify unusual values
+I used conditional formatting with thresholds one standard deviation above and below the mean to flag unusually high and low run totals in the sample.
+
+![Task 4 — Highlighted run totals](da_session5_task4.png)
+
+### Task 5: Team and venue analysis
+A pivot table summarizes wickets by team and venue, allowing performance to be compared across both categories.
+
+![Task 5 — Wickets by team and venue](da_session5_task5.png)
