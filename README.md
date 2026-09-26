@@ -2098,3 +2098,39 @@ ELT loads raw data first, then transforms it in the destination. For example, a 
 This session covers domain knowledge, e-commerce KPIs, customer acquisition cost, and a proposed delivery experience metric.
 
 [Read the complete Session 3 answers](da_session3_answers.txt)
+## Session 4 — Data Analytics Workflow
+
+### Task 1: Define a business question
+I used Spotify as an example to examine where listeners skip songs or leave playlists. Understanding these patterns could help improve playlist recommendations and listening sessions.
+
+[Read Task 1](da_session4_task1.txt)
+
+![Task 1 — Business question](da_session4_task1.png)
+
+### Task 2: Identify the data to collect
+I identified five useful fields for studying listening trends: user ID, playlist ID, song ID, playback timestamp, and event type.
+
+[Read Task 2](da_session4_task2.txt)
+
+![Task 2 — Data requirements](da_session4_task2.png)
+
+### Task 3: Clean product data
+I removed extra spaces from the product name, converted the price to an integer, and standardized the category to lowercase.
+
+[Open the Task 3 notebook](da_session4_task3.ipynb)
+
+![Task 3 — Cleaned product data](da_session4_task3.png)
+
+### Task 4: Summarize order data
+I grouped three sample orders by user. The resulting total spend was 450 for User A and 150 for User B.
+
+[Open the Task 4 notebook](da_session4_task4.ipynb)
+
+![Task 4 — Total spend by user](da_session4_task4.png)
+
+### Task 5: Present ticket sales
+I created a bar chart from sample ticket counts for three movies. Dune: Part Two led with 120 tickets, followed by Inside Out 2 with 90 and Oppenheimer with 75.
+
+[Download the Task 5 spreadsheet](da_session4_task5_movie_tickets.xlsx)
+
+![Task 5 — Movie ticket sales bar chart](da_session4_task5.png)
