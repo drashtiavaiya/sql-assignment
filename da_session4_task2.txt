@@ -1,0 +1,5 @@
+1. User ID — identifies the listener without relying on their name.
+2. Playlist ID — shows which playlist the listening event belongs to.
+3. Song ID — identifies the song being played or skipped.
+4. Playback timestamp — shows when the event happened.
+5. Event type — records whether the listener played, skipped or exited.

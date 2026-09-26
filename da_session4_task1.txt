@@ -1,0 +1,1 @@
+For Spotify, I would look at why listeners stop playing a playlist before it ends. The useful question is: which songs or points in a playlist are followed by the most skips or exits? Comparing listening events across playlists could help identify where the experience loses people and guide changes to song order or recommendations.
