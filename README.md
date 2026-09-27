@@ -2216,3 +2216,26 @@ Side-by-side plots compare daily Spotify listening hours and YouTube viewing hou
 I added descriptive titles, axis labels, distinct colors, markers, and light grids to make the two plots easier to read.
 
 ![Task 4 — Styled media-use figure](da_v_s1_task4.png)
+## Visualization Session 2 — Line Chart Styling
+
+The charts use illustrative data. The Python code for all four tasks is in [v2.ipynb](v2.ipynb).
+
+### Task 1: Daily steps
+A green line with red circular markers shows sample steps across seven days.
+
+![Task 1 — Daily steps](v2_1.png)
+
+### Task 2: Monthly active users
+A line chart shows six months of sample music-app activity, with red circle markers at each observation.
+
+![Task 2 — Music-app active users](v2_2.png)
+
+### Task 3: Two order trends
+Different colors, line styles, and a legend distinguish sample Zomato and Swiggy monthly orders.
+
+![Task 3 — Zomato and Swiggy orders](v2_3.png)
+
+### Task 4: Monthly data usage
+The line chart has a descriptive title and clearly labeled month and data-usage axes.
+
+![Task 4 — Monthly data usage](v2_4.png)
