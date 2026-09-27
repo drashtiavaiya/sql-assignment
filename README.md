@@ -2471,3 +2471,31 @@ The exported restaurant chart was placed on a slide. The presentation is availab
 The exported PDF was opened at 200% zoom to check the chart’s text and edges.
 
 ![PDF inspected at 200% zoom](v11_5.png)
+## Visualization Session 12 — Retail Sales Case Study
+
+This case study uses a small synthetic sales dataset created for the assignment. The data is in [v12.csv](v12.csv), and the analysis is in [v12.ipynb](v12.ipynb).
+
+### Task 1: Prepare the data
+The dataset records products, categories, dates, and sales amounts. The first five rows were displayed to check its structure.
+
+![Sales dataset preview](v12_1.png)
+
+### Task 2: Category sales
+A bar chart compares total sales across Electronics, Clothing, and Groceries.
+
+![Total sales by category](v12_2.png)
+
+### Task 3: Monthly trend
+Sales were grouped by month to show how the total changed throughout the year.
+
+![Monthly sales trend](v12_3.png)
+
+### Task 4: Order amounts
+A histogram shows the distribution of individual order values.
+
+![Order amount distribution](v12_4.png)
+
+### Task 5: Labeled category chart
+Exact sales totals appear above the bars. The exported chart is available as [category_sales_kpi.png](category_sales_kpi.png).
+
+![Category sales with value labels](v12_5.png)
