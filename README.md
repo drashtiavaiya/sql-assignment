@@ -2341,3 +2341,26 @@ The scatter plot compares listening and viewing hours for 15 sample users. The f
 The final plot compares orders and total spending for 10 sample users, with a fitted regression line. The code was generated for this task and run in Colab using sample data; no source dataset was supplied.
 
 ![Flipkart scatter plot with regression line](v6_5.png)
+## Visualization Session 7 — Subplots
+
+The examples use illustrative data. The complete code is in [v7.ipynb](v7.ipynb).
+
+### Task 1: Steps and water intake
+Two vertically stacked line charts show daily steps and water intake over seven days.
+
+![Daily steps and water intake](v7_1.png)
+
+### Task 2: Instagram posts by quarter
+A 2×2 figure presents the same quarterly post counts as a line chart, bar chart, scatter plot, and pie chart.
+
+![Instagram posts in four chart types](v7_2.png)
+
+### Task 3: Food orders by app
+Three side-by-side charts compare monthly orders from Zomato, Swiggy, and Domino’s. They share a vertical scale so the counts can be compared directly.
+
+![Monthly food orders by app](v7_3.png)
+
+### Task 4: Mobile data usage
+A 2×2 figure shows monthly data usage for YouTube, Instagram, Spotify, and WhatsApp. The charts share their axes for consistent comparison.
+
+![Monthly mobile data usage](v7_4.png)
