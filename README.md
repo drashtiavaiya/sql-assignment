@@ -2364,3 +2364,31 @@ Three side-by-side charts compare monthly orders from Zomato, Swiggy, and Domino
 A 2×2 figure shows monthly data usage for YouTube, Instagram, Spotify, and WhatsApp. The charts share their axes for consistent comparison.
 
 ![Monthly mobile data usage](v7_4.png)
+## Visualization Session 8 — Chart Styling
+
+These charts use illustrative data. The code is in [v8.ipynb](v8.ipynb).
+
+### Task 1: Figure size
+A wide line chart shows seven days of sample activity for a music streaming app.
+
+![Daily active music app users](v8_1.png)
+
+### Task 2: Line styles
+Dashed and dotted lines distinguish Zomato and Swiggy orders across the same week. A legend identifies each series.
+
+![Food orders with distinct line styles](v8_2.png)
+
+### Task 3: ggplot style
+The daily sales chart uses Matplotlib’s `ggplot` style with an orange line.
+
+![Flipkart sales in ggplot style](v8_3.png)
+
+### Task 4: Brand colors
+The bar chart uses colors inspired by Instagram’s visual identity to show daily post counts.
+
+![Instagram posts with brand-inspired colors](v8_4.png)
+
+### Task 5: Dark theme
+The food orders chart is restyled with a dark background and new high-contrast line colors so the data and labels remain readable.
+
+![Food orders in a dark theme](v8_5.png)
