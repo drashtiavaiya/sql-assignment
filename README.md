@@ -2313,3 +2313,31 @@ The histogram shows the distribution of 50 sample song lengths, measured in seco
 Custom bin edges group sample prices into the requested ranges: 100–500, 501–1000, 1001–2000, and 2001–5000.
 
 ![Product price histogram](v5_5.png)
+## Visualization Session 6 — Scatter Plots and Trend Lines
+
+The examples use illustrative data. The complete code is in [v6.ipynb](v6.ipynb).
+
+### Task 1: Instagram activity
+The scatter plot compares daily Instagram use with monthly posts for 12 sample users.
+
+![Instagram use and posts](v6_1.png)
+
+### Task 2: Zomato orders and spending
+Each point represents one of 12 sample friends. Names beside the points identify their order counts and spending.
+
+![Labeled Zomato scatter plot](v6_2.png)
+
+### Task 3: Zomato spending trend
+A line fitted with NumPy’s `polyfit()` shows the overall relationship between order count and amount spent. Its equation is printed below the chart.
+
+![Zomato scatter plot with trend line](v6_3.png)
+
+### Task 4: YouTube and Spotify
+The scatter plot compares listening and viewing hours for 15 sample users. The fitted line summarizes the relationship between the two measures.
+
+![YouTube and Spotify scatter plot](v6_4.png)
+
+### Task 5: Flipkart orders and spending
+The final plot compares orders and total spending for 10 sample users, with a fitted regression line. The code was generated for this task and run in Colab using sample data; no source dataset was supplied.
+
+![Flipkart scatter plot with regression line](v6_5.png)
