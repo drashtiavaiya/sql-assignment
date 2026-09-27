@@ -2285,3 +2285,31 @@ The same spending data is shown as a donut chart.
 The donut chart shows four teams and their percentage shares. These follower counts are illustrative, not current Instagram figures.
 
 ![IPL follower share](v4_4.png)
+## Visualization Session 5 — Histograms
+
+The charts use sample data to examine how values are distributed. The code is in [v5(1).ipynb](v5(1).ipynb).
+
+### Task 1: Delivery times
+This histogram groups 30 delivery times into ranges, making it easier to see where most orders fall.
+
+![Delivery time histogram](v5_1.png)
+
+### Task 2: IPL match scores
+Three histograms show the same 50 sample scores with 5, 10, and 15 bins. Fewer bins give a broader summary; more bins reveal finer differences between score ranges.
+
+![IPL score histograms](v5_2.png)
+
+### Task 3: Daily steps
+The two histograms use the same 30 days of sample data. The frequency chart counts days in each step range, while the density chart scales the distribution to a total area of one.
+
+![Daily steps frequency and density](v5_3.png)
+
+### Task 4: Song durations
+The histogram shows the distribution of 50 sample song lengths, measured in seconds.
+
+![Spotify song duration histogram](v5_4.png)
+
+### Task 5: Product prices
+Custom bin edges group sample prices into the requested ranges: 100–500, 501–1000, 1001–2000, and 2001–5000.
+
+![Product price histogram](v5_5.png)
