@@ -2420,3 +2420,26 @@ A line chart tracks a sample Paytm wallet balance over 14 days. Dates on the hor
 The active-user chart is presented again with clearer axis labels, a legend, and horizontal gridlines for easier reading.
 
 ![Refined active users area chart](v9_5.png)
+## Visualization Session 10 — Annotations and Legends
+
+The charts use illustrative data. The code is in [v10.ipynb](v10.ipynb).
+
+### Task 1: Highest user count
+A line chart tracks monthly active users. An arrow identifies the month with the highest count.
+
+![Monthly active users with peak annotation](v10_1.png)
+
+### Task 2: Lowest order count
+A bar chart compares monthly food delivery orders. An arrow highlights the month with the fewest orders.
+
+![Monthly orders with lowest month annotated](v10_2.png)
+
+### Task 3: Payment methods
+A pie chart shows the share of four payment methods. Percentages appear on the slices, while a legend identifies each method.
+
+![Payment method pie chart](v10_3.png)
+
+### Task 4: Movie ratings and reviews
+A scatter plot compares ratings with review counts for fictional movies. A text box points to the highest-rated movie.
+
+![Movie ratings scatter plot with text box](v10_4.png)
