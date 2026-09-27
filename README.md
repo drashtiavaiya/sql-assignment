@@ -2392,3 +2392,31 @@ The bar chart uses colors inspired by Instagram’s visual identity to show dail
 The food orders chart is restyled with a dark background and new high-contrast line colors so the data and labels remain readable.
 
 ![Food orders in a dark theme](v8_5.png)
+## Visualization Session 9 — Advanced Charts
+
+The charts use illustrative data. The complete code is in [v9.ipynb](v9.ipynb).
+
+### Task 1: Stacked food orders
+A stacked bar chart shows daily orders from Zomato and Swiggy. Each bar’s full height represents the combined orders for that day.
+
+![Stacked food orders](v9_1.png)
+
+### Task 2: Active users
+An area chart compares Spotify and YouTube daily active users over one week, with separate colors and labels for each platform.
+
+![Daily active users area chart](v9_2.png)
+
+### Task 3: Delivery time variation
+Daily average delivery times are plotted with error bars representing one standard deviation above and below each average.
+
+![Delivery times with error bars](v9_3.png)
+
+### Task 4: Wallet balance
+A line chart tracks a sample Paytm wallet balance over 14 days. Dates on the horizontal axis use the `DD MMM` format.
+
+![Daily wallet balance](v9_4.png)
+
+### Task 5: Refined area chart
+The active-user chart is presented again with clearer axis labels, a legend, and horizontal gridlines for easier reading.
+
+![Refined active users area chart](v9_5.png)
