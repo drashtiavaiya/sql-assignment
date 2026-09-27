@@ -2193,3 +2193,26 @@ I defined a late-delivery question, listed the order-level data needed to invest
 [Read the food-delivery scenario](da_session6_task4.txt)
 
 ![Task 4 — Food-delivery scenario](da_session6_task4.png)
+## Visualization Session 1 — Matplotlib Basics
+
+The charts use illustrative data to practice line plots, axes, and presentation choices. The complete code is in [da_v_s1.ipynb](da_v_s1.ipynb).
+
+### Task 1: Daily steps
+A line chart shows sample step counts across seven days. The standalone script is [da_v_s1_hello_plot.py](da_v_s1_hello_plot.py).
+
+![Task 1 — Daily steps line chart](da_v_s1_task1.png)
+
+### Task 2: Instagram likes
+A second line chart plots made-up likes for ten posts. The standalone script is [da_v_s1_likes_plot.py](da_v_s1_likes_plot.py).
+
+![Task 2 — Likes per post](da_v_s1_task2.png)
+
+### Task 3: Two axes in one figure
+Side-by-side plots compare daily Spotify listening hours and YouTube viewing hours for the same week.
+
+![Task 3 — Spotify and YouTube plots](da_v_s1_task3.png)
+
+### Task 4: Clear chart presentation
+I added descriptive titles, axis labels, distinct colors, markers, and light grids to make the two plots easier to read.
+
+![Task 4 — Styled media-use figure](da_v_s1_task4.png)
