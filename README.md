@@ -2239,3 +2239,26 @@ Different colors, line styles, and a legend distinguish sample Zomato and Swiggy
 The line chart has a descriptive title and clearly labeled month and data-usage axes.
 
 ![Task 4 — Monthly data usage](v2_4.png)
+## Visualization Session 3 — Bar Charts
+
+The charts use illustrative data. The code for all four tasks is in [v3.ipynb](v3.ipynb).
+
+### Task 1: Daily orders
+A vertical bar chart compares sample order counts across five food apps, with a distinct color for each bar.
+
+![Task 1 — Daily orders by app](v3_1.png)
+
+### Task 2: Influencer followers
+A horizontal bar chart compares six fictional influencer profiles, with followers measured in millions.
+
+![Task 2 — Sample influencer followers](v3_2.png)
+
+### Task 3: Bar labels
+The daily-order chart displays each exact count above its bar.
+
+![Task 3 — Order counts above bars](v3_3.png)
+
+### Task 4: Bar width
+A narrower bar width adds spacing while preserving the labels and comparisons.
+
+![Task 4 — Narrower bars](v3_4.png)
