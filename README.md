@@ -2443,3 +2443,31 @@ A pie chart shows the share of four payment methods. Percentages appear on the s
 A scatter plot compares ratings with review counts for fictional movies. A text box points to the highest-rated movie.
 
 ![Movie ratings scatter plot with text box](v10_4.png)
+## Visualization Session 11 — Exporting Charts
+
+The charts use illustrative data. The code is in [v11.ipynb](v11.ipynb).
+
+### Task 1: PNG export
+A restaurant order chart was exported as a [PNG image](v11b.png) at 150 DPI.
+
+![PNG export in Colab](v11_1.png)
+
+### Task 2: SVG export
+A weekly steps chart was exported as an [SVG file](v11l.svg), which can be resized without losing sharpness.
+
+![SVG export in Colab](v11_2.png)
+
+### Task 3: PDF export
+An app usage pie chart was exported as a [PDF](v11p.pdf).
+
+![PDF export in Colab](v11_3.png)
+
+### Task 4: Presentation slide
+The exported restaurant chart was placed on a slide. The presentation is available as [v11.pptx](v11.pptx).
+
+![Chart embedded in a presentation](v11_4.png)
+
+### Task 5: Quality check
+The exported PDF was opened at 200% zoom to check the chart’s text and edges.
+
+![PDF inspected at 200% zoom](v11_5.png)
