@@ -2262,3 +2262,26 @@ The daily-order chart displays each exact count above its bar.
 A narrower bar width adds spacing while preserving the labels and comparisons.
 
 ![Task 4 — Narrower bars](v3_4.png)
+## Visualization Session 4 — Pie and Donut Charts
+
+The charts use illustrative data. The code is in [v4.ipynb](v4.ipynb).
+
+### Daily app use
+The pie chart shows how daily app time is divided across five apps.
+
+![Daily app use](v4_1.png)
+
+### Monthly spending
+The largest spending category is separated from the pie for emphasis.
+
+![Monthly spending](v4_2.png)
+
+### Spending donut
+The same spending data is shown as a donut chart.
+
+![Spending donut](v4_3.png)
+
+### IPL follower share
+The donut chart shows four teams and their percentage shares. These follower counts are illustrative, not current Instagram figures.
+
+![IPL follower share](v4_4.png)
